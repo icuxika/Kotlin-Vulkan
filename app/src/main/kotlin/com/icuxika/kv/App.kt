@@ -13,4 +13,5 @@ class App {
 
 fun main(args: Array<String>) {
     Application().launch()
+//    FFMDemo().launch()
 }

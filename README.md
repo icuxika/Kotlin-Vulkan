@@ -24,3 +24,18 @@ jextract --source --output .\app\src\main\java -t com.icuxika.kv.jextract.glfw -
 ## 文档
 
 - [向上调用：将 Java 代码作为函数指针传递给外来函数](https://docs.oracle.com/en/java/javase/21/core/upcalls-passing-java-code-function-pointer-foreign-function.html#GUID-908061BA-DC97-4524-A390-8FCEF7C5978F)
+
+## Demo
+> 测试各种返回值的函数调用
+
+### 生成动态库
+> 默认使用的`MSVC`，其他编译器需要调整脚本
+```shell
+cd .\demo-cmake\
+.\buildLibrary.ps1
+```
+### 生成Java代码
+> `回到项目根目录`
+```shell
+jextract --source --output .\app\src\main\java -t com.icuxika.kv.jextract.demo -I .\demo-cmake\include\ -l "ffm_library" .\demo-cmake\include\ffm.h
+```
