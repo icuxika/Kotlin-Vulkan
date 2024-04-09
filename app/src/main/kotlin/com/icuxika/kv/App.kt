@@ -12,6 +12,7 @@ class App {
  */
 
 fun main(args: Array<String>) {
-    Application().launch()
+//    Application().launch()
 //    FFMDemo().launch()
+    Win32Demo().launch()
 }

@@ -27,7 +27,9 @@ application {
     applicationDefaultJvmArgs = listOf(
         "--enable-preview",
         "--enable-native-access=ALL-UNNAMED",
-        "-Djava.library.path=../library"
+        "-Djava.library.path=../library;C:\\Windows\\System32",
+        "-Dsun.stdout.encoding=UTF-8",
+        "-Dsun.stderr.encoding=UTF-8"
     )
 }
 

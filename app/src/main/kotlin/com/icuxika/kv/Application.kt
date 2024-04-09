@@ -17,14 +17,18 @@ class Application {
             val window = glfwCreateWindow(1280, 720, title, MemorySegment.NULL, MemorySegment.NULL)
             println("glfwVulkanSupported: ${glfwVulkanSupported()}")
 
-            // vulkan api 测试
-            Context(arena).createInstance()
+            val context = Context(arena)
+            context.createInstance()
+            context.pickPhysicalDevice()
 
             glfwSetKeyCallback(window, arena.createWindowKeyCallback())
 
             while (glfwWindowShouldClose(window) == GLFW_FALSE()) {
                 glfwPollEvents()
             }
+
+            context.cleanup()
+
             glfwDestroyWindow(window)
             glfwTerminate()
         }
