@@ -43,7 +43,27 @@ class FFMDemo {
             val pNames = getNames()
             println(pNames.getAtIndex(C_POINTER, 0).getUtf8String(0))
             println(pNames.getAtIndex(C_POINTER, 1).getUtf8String(0))
+
+            val wName = getWName()
+            println(wName.toWcharString())
+
+            val cnWName = getCNWName()
+            println(cnWName.toWcharString())
         }
+    }
+
+    private fun MemorySegment.toWcharString(): String {
+        var offset = 0L
+        while (offset >= 0) {
+            val curr: Short = this.get(ValueLayout.JAVA_SHORT, offset * 2)
+            if (curr.toInt() == 0) {
+                break
+            }
+            offset++
+        }
+        val shortArray = ShortArray(offset.toInt())
+        MemorySegment.copy(this, ValueLayout.JAVA_SHORT, 0, shortArray, 0, offset.toInt())
+        return shortArray.joinToString(separator = "") { it.toInt().toChar().toString() }
     }
 
     private fun Arena.createOnEach(): MemorySegment {

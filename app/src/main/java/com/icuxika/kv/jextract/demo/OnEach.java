@@ -16,13 +16,13 @@ public interface OnEach {
 
     void apply(int element);
     static MemorySegment allocate(OnEach fi, Arena scope) {
-        return RuntimeHelper.upcallStub(constants$0.const$4, fi, constants$0.const$3, scope);
+        return RuntimeHelper.upcallStub(constants$81.const$2, fi, constants$81.const$1, scope);
     }
     static OnEach ofAddress(MemorySegment addr, Arena arena) {
         MemorySegment symbol = addr.reinterpret(arena, null);
         return (int _element) -> {
             try {
-                constants$0.const$5.invokeExact(symbol, _element);
+                constants$81.const$3.invokeExact(symbol, _element);
             } catch (Throwable ex$) {
                 throw new AssertionError("should not reach here", ex$);
             }

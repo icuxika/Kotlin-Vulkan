@@ -11,20 +11,24 @@ final class constants$0 {
 
     // Suppresses default constructor, ensuring non-instantiability.
     private constants$0() {}
-    static final StructLayout const$0 = MemoryLayout.structLayout(
-        JAVA_LONG.withName("Id"),
-        MemoryLayout.sequenceLayout(10, JAVA_BYTE).withName("Name"),
-        MemoryLayout.paddingLayout(2),
-        JAVA_INT.withName("Age")
-    ).withName("Person");
-    static final VarHandle const$1 = constants$0.const$0.varHandle(MemoryLayout.PathElement.groupElement("Id"));
-    static final VarHandle const$2 = constants$0.const$0.varHandle(MemoryLayout.PathElement.groupElement("Age"));
-    static final FunctionDescriptor const$3 = FunctionDescriptor.ofVoid(
-        JAVA_INT
+    static final FunctionDescriptor const$0 = FunctionDescriptor.ofVoid(
+        RuntimeHelper.POINTER
     );
-    static final MethodHandle const$4 = RuntimeHelper.upcallHandle(OnEach.class, "apply", constants$0.const$3);
+    static final MethodHandle const$1 = RuntimeHelper.downcallHandleVariadic(
+        "__va_start",
+        constants$0.const$0
+    );
+    static final FunctionDescriptor const$2 = FunctionDescriptor.ofVoid();
+    static final MethodHandle const$3 = RuntimeHelper.downcallHandle(
+        "__security_init_cookie",
+        constants$0.const$2
+    );
+    static final FunctionDescriptor const$4 = FunctionDescriptor.ofVoid(
+        JAVA_LONG
+    );
     static final MethodHandle const$5 = RuntimeHelper.downcallHandle(
-        constants$0.const$3
+        "__security_check_cookie",
+        constants$0.const$4
     );
 }
 

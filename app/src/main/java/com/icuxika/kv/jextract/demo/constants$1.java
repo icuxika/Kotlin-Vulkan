@@ -11,26 +11,30 @@ final class constants$1 {
 
     // Suppresses default constructor, ensuring non-instantiability.
     private constants$1() {}
-    static final FunctionDescriptor const$0 = FunctionDescriptor.ofVoid(
+    static final MethodHandle const$0 = RuntimeHelper.downcallHandle(
+        "__report_gsfailure",
+        constants$0.const$4
+    );
+    static final VarHandle const$1 = JAVA_LONG.varHandle();
+    static final MemorySegment const$2 = RuntimeHelper.lookupGlobalVariable("__security_cookie", JAVA_LONG);
+    static final MethodHandle const$3 = RuntimeHelper.downcallHandle(
+        "_invalid_parameter_noinfo",
+        constants$0.const$2
+    );
+    static final MethodHandle const$4 = RuntimeHelper.downcallHandle(
+        "_invalid_parameter_noinfo_noreturn",
+        constants$0.const$2
+    );
+    static final FunctionDescriptor const$5 = FunctionDescriptor.ofVoid(
+        RuntimeHelper.POINTER,
+        RuntimeHelper.POINTER,
         RuntimeHelper.POINTER,
         JAVA_INT,
-        RuntimeHelper.POINTER
+        JAVA_LONG
     );
-    static final MethodHandle const$1 = RuntimeHelper.downcallHandle(
-        "forEach",
-        constants$1.const$0
-    );
-    static final FunctionDescriptor const$2 = FunctionDescriptor.ofVoid(
-        RuntimeHelper.POINTER
-    );
-    static final MethodHandle const$3 = RuntimeHelper.downcallHandle(
-        "dumpPerson",
-        constants$1.const$2
-    );
-    static final FunctionDescriptor const$4 = FunctionDescriptor.of(RuntimeHelper.POINTER);
-    static final MethodHandle const$5 = RuntimeHelper.downcallHandleVariadic(
-        "getName",
-        constants$1.const$4
+    static final MethodHandle const$6 = RuntimeHelper.downcallHandle(
+        "_invoke_watson",
+        constants$1.const$5
     );
 }
 

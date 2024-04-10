@@ -17,8 +17,6103 @@ public class ffm_h  {
     public static final OfFloat C_FLOAT = JAVA_FLOAT;
     public static final OfDouble C_DOUBLE = JAVA_DOUBLE;
     public static final AddressLayout C_POINTER = RuntimeHelper.POINTER;
+    /**
+     * {@snippet :
+     * #define _VCRT_COMPILER_PREPROCESSOR 1
+     * }
+     */
+    public static int _VCRT_COMPILER_PREPROCESSOR() {
+        return (int)1L;
+    }
+    /**
+     * {@snippet :
+     * #define _SAL_VERSION 20
+     * }
+     */
+    public static int _SAL_VERSION() {
+        return (int)20L;
+    }
+    /**
+     * {@snippet :
+     * #define __SAL_H_VERSION 180000000
+     * }
+     */
+    public static int __SAL_H_VERSION() {
+        return (int)180000000L;
+    }
+    /**
+     * {@snippet :
+     * #define _USE_DECLSPECS_FOR_SAL 0
+     * }
+     */
+    public static int _USE_DECLSPECS_FOR_SAL() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define _USE_ATTRIBUTES_FOR_SAL 0
+     * }
+     */
+    public static int _USE_ATTRIBUTES_FOR_SAL() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_PACKING 8
+     * }
+     */
+    public static int _CRT_PACKING() {
+        return (int)8L;
+    }
+    /**
+     * {@snippet :
+     * #define _HAS_EXCEPTIONS 1
+     * }
+     */
+    public static int _HAS_EXCEPTIONS() {
+        return (int)1L;
+    }
+    /**
+     * {@snippet :
+     * #define _HAS_CXX17 0
+     * }
+     */
+    public static int _HAS_CXX17() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define _HAS_CXX20 0
+     * }
+     */
+    public static int _HAS_CXX20() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define _HAS_CXX23 0
+     * }
+     */
+    public static int _HAS_CXX23() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define _HAS_NODISCARD 0
+     * }
+     */
+    public static int _HAS_NODISCARD() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE 1
+     * }
+     */
+    public static int _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE() {
+        return (int)1L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_BUILD_DESKTOP_APP 1
+     * }
+     */
+    public static int _CRT_BUILD_DESKTOP_APP() {
+        return (int)1L;
+    }
+    /**
+     * {@snippet :
+     * #define _ARGMAX 100
+     * }
+     */
+    public static int _ARGMAX() {
+        return (int)100L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INT_MAX 2147483647
+     * }
+     */
+    public static int _CRT_INT_MAX() {
+        return (int)2147483647L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_FUNCTIONS_REQUIRED 1
+     * }
+     */
+    public static int _CRT_FUNCTIONS_REQUIRED() {
+        return (int)1L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_HAS_CXX17 0
+     * }
+     */
+    public static int _CRT_HAS_CXX17() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_HAS_C11 1
+     * }
+     */
+    public static int _CRT_HAS_C11() {
+        return (int)1L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INTERNAL_NONSTDC_NAMES 1
+     * }
+     */
+    public static int _CRT_INTERNAL_NONSTDC_NAMES() {
+        return (int)1L;
+    }
+    /**
+     * {@snippet :
+     * #define __STDC_WANT_SECURE_LIB__ 1
+     * }
+     */
+    public static int __STDC_WANT_SECURE_LIB__() {
+        return (int)1L;
+    }
+    /**
+     * {@snippet :
+     * #define _SECURECRT_FILL_BUFFER_PATTERN 254
+     * }
+     */
+    public static int _SECURECRT_FILL_BUFFER_PATTERN() {
+        return (int)254L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES 0
+     * }
+     */
+    public static int _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT 0
+     * }
+     */
+    public static int _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_SECURE_CPP_OVERLOAD_SECURE_NAMES 1
+     * }
+     */
+    public static int _CRT_SECURE_CPP_OVERLOAD_SECURE_NAMES() {
+        return (int)1L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_MEMORY 0
+     * }
+     */
+    public static int _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_MEMORY() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_SECURE_CPP_OVERLOAD_SECURE_NAMES_MEMORY 0
+     * }
+     */
+    public static int _CRT_SECURE_CPP_OVERLOAD_SECURE_NAMES_MEMORY() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define EPERM 1
+     * }
+     */
+    public static int EPERM() {
+        return (int)1L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOENT 2
+     * }
+     */
+    public static int ENOENT() {
+        return (int)2L;
+    }
+    /**
+     * {@snippet :
+     * #define ESRCH 3
+     * }
+     */
+    public static int ESRCH() {
+        return (int)3L;
+    }
+    /**
+     * {@snippet :
+     * #define EINTR 4
+     * }
+     */
+    public static int EINTR() {
+        return (int)4L;
+    }
+    /**
+     * {@snippet :
+     * #define EIO 5
+     * }
+     */
+    public static int EIO() {
+        return (int)5L;
+    }
+    /**
+     * {@snippet :
+     * #define ENXIO 6
+     * }
+     */
+    public static int ENXIO() {
+        return (int)6L;
+    }
+    /**
+     * {@snippet :
+     * #define E2BIG 7
+     * }
+     */
+    public static int E2BIG() {
+        return (int)7L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOEXEC 8
+     * }
+     */
+    public static int ENOEXEC() {
+        return (int)8L;
+    }
+    /**
+     * {@snippet :
+     * #define EBADF 9
+     * }
+     */
+    public static int EBADF() {
+        return (int)9L;
+    }
+    /**
+     * {@snippet :
+     * #define ECHILD 10
+     * }
+     */
+    public static int ECHILD() {
+        return (int)10L;
+    }
+    /**
+     * {@snippet :
+     * #define EAGAIN 11
+     * }
+     */
+    public static int EAGAIN() {
+        return (int)11L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOMEM 12
+     * }
+     */
+    public static int ENOMEM() {
+        return (int)12L;
+    }
+    /**
+     * {@snippet :
+     * #define EACCES 13
+     * }
+     */
+    public static int EACCES() {
+        return (int)13L;
+    }
+    /**
+     * {@snippet :
+     * #define EFAULT 14
+     * }
+     */
+    public static int EFAULT() {
+        return (int)14L;
+    }
+    /**
+     * {@snippet :
+     * #define EBUSY 16
+     * }
+     */
+    public static int EBUSY() {
+        return (int)16L;
+    }
+    /**
+     * {@snippet :
+     * #define EEXIST 17
+     * }
+     */
+    public static int EEXIST() {
+        return (int)17L;
+    }
+    /**
+     * {@snippet :
+     * #define EXDEV 18
+     * }
+     */
+    public static int EXDEV() {
+        return (int)18L;
+    }
+    /**
+     * {@snippet :
+     * #define ENODEV 19
+     * }
+     */
+    public static int ENODEV() {
+        return (int)19L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOTDIR 20
+     * }
+     */
+    public static int ENOTDIR() {
+        return (int)20L;
+    }
+    /**
+     * {@snippet :
+     * #define EISDIR 21
+     * }
+     */
+    public static int EISDIR() {
+        return (int)21L;
+    }
+    /**
+     * {@snippet :
+     * #define ENFILE 23
+     * }
+     */
+    public static int ENFILE() {
+        return (int)23L;
+    }
+    /**
+     * {@snippet :
+     * #define EMFILE 24
+     * }
+     */
+    public static int EMFILE() {
+        return (int)24L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOTTY 25
+     * }
+     */
+    public static int ENOTTY() {
+        return (int)25L;
+    }
+    /**
+     * {@snippet :
+     * #define EFBIG 27
+     * }
+     */
+    public static int EFBIG() {
+        return (int)27L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOSPC 28
+     * }
+     */
+    public static int ENOSPC() {
+        return (int)28L;
+    }
+    /**
+     * {@snippet :
+     * #define ESPIPE 29
+     * }
+     */
+    public static int ESPIPE() {
+        return (int)29L;
+    }
+    /**
+     * {@snippet :
+     * #define EROFS 30
+     * }
+     */
+    public static int EROFS() {
+        return (int)30L;
+    }
+    /**
+     * {@snippet :
+     * #define EMLINK 31
+     * }
+     */
+    public static int EMLINK() {
+        return (int)31L;
+    }
+    /**
+     * {@snippet :
+     * #define EPIPE 32
+     * }
+     */
+    public static int EPIPE() {
+        return (int)32L;
+    }
+    /**
+     * {@snippet :
+     * #define EDOM 33
+     * }
+     */
+    public static int EDOM() {
+        return (int)33L;
+    }
+    /**
+     * {@snippet :
+     * #define EDEADLK 36
+     * }
+     */
+    public static int EDEADLK() {
+        return (int)36L;
+    }
+    /**
+     * {@snippet :
+     * #define ENAMETOOLONG 38
+     * }
+     */
+    public static int ENAMETOOLONG() {
+        return (int)38L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOLCK 39
+     * }
+     */
+    public static int ENOLCK() {
+        return (int)39L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOSYS 40
+     * }
+     */
+    public static int ENOSYS() {
+        return (int)40L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOTEMPTY 41
+     * }
+     */
+    public static int ENOTEMPTY() {
+        return (int)41L;
+    }
+    /**
+     * {@snippet :
+     * #define EINVAL 22
+     * }
+     */
+    public static int EINVAL() {
+        return (int)22L;
+    }
+    /**
+     * {@snippet :
+     * #define ERANGE 34
+     * }
+     */
+    public static int ERANGE() {
+        return (int)34L;
+    }
+    /**
+     * {@snippet :
+     * #define EILSEQ 42
+     * }
+     */
+    public static int EILSEQ() {
+        return (int)42L;
+    }
+    /**
+     * {@snippet :
+     * #define STRUNCATE 80
+     * }
+     */
+    public static int STRUNCATE() {
+        return (int)80L;
+    }
+    /**
+     * {@snippet :
+     * #define EADDRINUSE 100
+     * }
+     */
+    public static int EADDRINUSE() {
+        return (int)100L;
+    }
+    /**
+     * {@snippet :
+     * #define EADDRNOTAVAIL 101
+     * }
+     */
+    public static int EADDRNOTAVAIL() {
+        return (int)101L;
+    }
+    /**
+     * {@snippet :
+     * #define EAFNOSUPPORT 102
+     * }
+     */
+    public static int EAFNOSUPPORT() {
+        return (int)102L;
+    }
+    /**
+     * {@snippet :
+     * #define EALREADY 103
+     * }
+     */
+    public static int EALREADY() {
+        return (int)103L;
+    }
+    /**
+     * {@snippet :
+     * #define EBADMSG 104
+     * }
+     */
+    public static int EBADMSG() {
+        return (int)104L;
+    }
+    /**
+     * {@snippet :
+     * #define ECANCELED 105
+     * }
+     */
+    public static int ECANCELED() {
+        return (int)105L;
+    }
+    /**
+     * {@snippet :
+     * #define ECONNABORTED 106
+     * }
+     */
+    public static int ECONNABORTED() {
+        return (int)106L;
+    }
+    /**
+     * {@snippet :
+     * #define ECONNREFUSED 107
+     * }
+     */
+    public static int ECONNREFUSED() {
+        return (int)107L;
+    }
+    /**
+     * {@snippet :
+     * #define ECONNRESET 108
+     * }
+     */
+    public static int ECONNRESET() {
+        return (int)108L;
+    }
+    /**
+     * {@snippet :
+     * #define EDESTADDRREQ 109
+     * }
+     */
+    public static int EDESTADDRREQ() {
+        return (int)109L;
+    }
+    /**
+     * {@snippet :
+     * #define EHOSTUNREACH 110
+     * }
+     */
+    public static int EHOSTUNREACH() {
+        return (int)110L;
+    }
+    /**
+     * {@snippet :
+     * #define EIDRM 111
+     * }
+     */
+    public static int EIDRM() {
+        return (int)111L;
+    }
+    /**
+     * {@snippet :
+     * #define EINPROGRESS 112
+     * }
+     */
+    public static int EINPROGRESS() {
+        return (int)112L;
+    }
+    /**
+     * {@snippet :
+     * #define EISCONN 113
+     * }
+     */
+    public static int EISCONN() {
+        return (int)113L;
+    }
+    /**
+     * {@snippet :
+     * #define ELOOP 114
+     * }
+     */
+    public static int ELOOP() {
+        return (int)114L;
+    }
+    /**
+     * {@snippet :
+     * #define EMSGSIZE 115
+     * }
+     */
+    public static int EMSGSIZE() {
+        return (int)115L;
+    }
+    /**
+     * {@snippet :
+     * #define ENETDOWN 116
+     * }
+     */
+    public static int ENETDOWN() {
+        return (int)116L;
+    }
+    /**
+     * {@snippet :
+     * #define ENETRESET 117
+     * }
+     */
+    public static int ENETRESET() {
+        return (int)117L;
+    }
+    /**
+     * {@snippet :
+     * #define ENETUNREACH 118
+     * }
+     */
+    public static int ENETUNREACH() {
+        return (int)118L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOBUFS 119
+     * }
+     */
+    public static int ENOBUFS() {
+        return (int)119L;
+    }
+    /**
+     * {@snippet :
+     * #define ENODATA 120
+     * }
+     */
+    public static int ENODATA() {
+        return (int)120L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOLINK 121
+     * }
+     */
+    public static int ENOLINK() {
+        return (int)121L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOMSG 122
+     * }
+     */
+    public static int ENOMSG() {
+        return (int)122L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOPROTOOPT 123
+     * }
+     */
+    public static int ENOPROTOOPT() {
+        return (int)123L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOSR 124
+     * }
+     */
+    public static int ENOSR() {
+        return (int)124L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOSTR 125
+     * }
+     */
+    public static int ENOSTR() {
+        return (int)125L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOTCONN 126
+     * }
+     */
+    public static int ENOTCONN() {
+        return (int)126L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOTRECOVERABLE 127
+     * }
+     */
+    public static int ENOTRECOVERABLE() {
+        return (int)127L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOTSOCK 128
+     * }
+     */
+    public static int ENOTSOCK() {
+        return (int)128L;
+    }
+    /**
+     * {@snippet :
+     * #define ENOTSUP 129
+     * }
+     */
+    public static int ENOTSUP() {
+        return (int)129L;
+    }
+    /**
+     * {@snippet :
+     * #define EOPNOTSUPP 130
+     * }
+     */
+    public static int EOPNOTSUPP() {
+        return (int)130L;
+    }
+    /**
+     * {@snippet :
+     * #define EOTHER 131
+     * }
+     */
+    public static int EOTHER() {
+        return (int)131L;
+    }
+    /**
+     * {@snippet :
+     * #define EOVERFLOW 132
+     * }
+     */
+    public static int EOVERFLOW() {
+        return (int)132L;
+    }
+    /**
+     * {@snippet :
+     * #define EOWNERDEAD 133
+     * }
+     */
+    public static int EOWNERDEAD() {
+        return (int)133L;
+    }
+    /**
+     * {@snippet :
+     * #define EPROTO 134
+     * }
+     */
+    public static int EPROTO() {
+        return (int)134L;
+    }
+    /**
+     * {@snippet :
+     * #define EPROTONOSUPPORT 135
+     * }
+     */
+    public static int EPROTONOSUPPORT() {
+        return (int)135L;
+    }
+    /**
+     * {@snippet :
+     * #define EPROTOTYPE 136
+     * }
+     */
+    public static int EPROTOTYPE() {
+        return (int)136L;
+    }
+    /**
+     * {@snippet :
+     * #define ETIME 137
+     * }
+     */
+    public static int ETIME() {
+        return (int)137L;
+    }
+    /**
+     * {@snippet :
+     * #define ETIMEDOUT 138
+     * }
+     */
+    public static int ETIMEDOUT() {
+        return (int)138L;
+    }
+    /**
+     * {@snippet :
+     * #define ETXTBSY 139
+     * }
+     */
+    public static int ETXTBSY() {
+        return (int)139L;
+    }
+    /**
+     * {@snippet :
+     * #define EWOULDBLOCK 140
+     * }
+     */
+    public static int EWOULDBLOCK() {
+        return (int)140L;
+    }
+    /**
+     * {@snippet :
+     * #define _UPPER 1
+     * }
+     */
+    public static int _UPPER() {
+        return (int)1L;
+    }
+    /**
+     * {@snippet :
+     * #define _LOWER 2
+     * }
+     */
+    public static int _LOWER() {
+        return (int)2L;
+    }
+    /**
+     * {@snippet :
+     * #define _DIGIT 4
+     * }
+     */
+    public static int _DIGIT() {
+        return (int)4L;
+    }
+    /**
+     * {@snippet :
+     * #define _SPACE 8
+     * }
+     */
+    public static int _SPACE() {
+        return (int)8L;
+    }
+    /**
+     * {@snippet :
+     * #define _PUNCT 16
+     * }
+     */
+    public static int _PUNCT() {
+        return (int)16L;
+    }
+    /**
+     * {@snippet :
+     * #define _CONTROL 32
+     * }
+     */
+    public static int _CONTROL() {
+        return (int)32L;
+    }
+    /**
+     * {@snippet :
+     * #define _BLANK 64
+     * }
+     */
+    public static int _BLANK() {
+        return (int)64L;
+    }
+    /**
+     * {@snippet :
+     * #define _HEX 128
+     * }
+     */
+    public static int _HEX() {
+        return (int)128L;
+    }
+    /**
+     * {@snippet :
+     * #define _LEADBYTE 32768
+     * }
+     */
+    public static int _LEADBYTE() {
+        return (int)32768L;
+    }
+    /**
+     * {@snippet :
+     * #define _SH_DENYRW 16
+     * }
+     */
+    public static int _SH_DENYRW() {
+        return (int)16L;
+    }
+    /**
+     * {@snippet :
+     * #define _SH_DENYWR 32
+     * }
+     */
+    public static int _SH_DENYWR() {
+        return (int)32L;
+    }
+    /**
+     * {@snippet :
+     * #define _SH_DENYRD 48
+     * }
+     */
+    public static int _SH_DENYRD() {
+        return (int)48L;
+    }
+    /**
+     * {@snippet :
+     * #define _SH_DENYNO 64
+     * }
+     */
+    public static int _SH_DENYNO() {
+        return (int)64L;
+    }
+    /**
+     * {@snippet :
+     * #define _SH_SECURE 128
+     * }
+     */
+    public static int _SH_SECURE() {
+        return (int)128L;
+    }
+    /**
+     * {@snippet :
+     * #define _S_IFMT 61440
+     * }
+     */
+    public static int _S_IFMT() {
+        return (int)61440L;
+    }
+    /**
+     * {@snippet :
+     * #define _S_IFDIR 16384
+     * }
+     */
+    public static int _S_IFDIR() {
+        return (int)16384L;
+    }
+    /**
+     * {@snippet :
+     * #define _S_IFCHR 8192
+     * }
+     */
+    public static int _S_IFCHR() {
+        return (int)8192L;
+    }
+    /**
+     * {@snippet :
+     * #define _S_IFIFO 4096
+     * }
+     */
+    public static int _S_IFIFO() {
+        return (int)4096L;
+    }
+    /**
+     * {@snippet :
+     * #define _S_IFREG 32768
+     * }
+     */
+    public static int _S_IFREG() {
+        return (int)32768L;
+    }
+    /**
+     * {@snippet :
+     * #define _S_IREAD 256
+     * }
+     */
+    public static int _S_IREAD() {
+        return (int)256L;
+    }
+    /**
+     * {@snippet :
+     * #define _S_IWRITE 128
+     * }
+     */
+    public static int _S_IWRITE() {
+        return (int)128L;
+    }
+    /**
+     * {@snippet :
+     * #define _S_IEXEC 64
+     * }
+     */
+    public static int _S_IEXEC() {
+        return (int)64L;
+    }
+    /**
+     * {@snippet :
+     * #define WCHAR_MIN 0
+     * }
+     */
+    public static int WCHAR_MIN() {
+        return (int)0L;
+    }
+    /**
+     * {@snippet :
+     * #define WCHAR_MAX 65535
+     * }
+     */
+    public static int WCHAR_MAX() {
+        return (int)65535L;
+    }
+    /**
+     * {@snippet :
+     * typedef unsigned long long uintptr_t;
+     * }
+     */
+    public static final OfLong uintptr_t = JAVA_LONG;
+    /**
+     * {@snippet :
+     * typedef char* va_list;
+     * }
+     */
+    public static final AddressLayout va_list = RuntimeHelper.POINTER;
+    public static MethodHandle __va_start$MH() {
+        return RuntimeHelper.requireNonNull(constants$0.const$1,"__va_start");
+    }
+    /**
+     * {@snippet :
+     * void __va_start(va_list*,...);
+     * }
+     */
+    public static void __va_start(MemorySegment x0, Object... x1) {
+        var mh$ = __va_start$MH();
+        try {
+            mh$.invokeExact(x0, x1);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    /**
+     * {@snippet :
+     * typedef unsigned long long size_t;
+     * }
+     */
+    public static final OfLong size_t = JAVA_LONG;
+    /**
+     * {@snippet :
+     * typedef long long ptrdiff_t;
+     * }
+     */
+    public static final OfLong ptrdiff_t = JAVA_LONG;
+    /**
+     * {@snippet :
+     * typedef long long intptr_t;
+     * }
+     */
+    public static final OfLong intptr_t = JAVA_LONG;
+    /**
+     * {@snippet :
+     * typedef unsigned short wchar_t;
+     * }
+     */
+    public static final OfShort wchar_t = JAVA_SHORT;
+    public static MethodHandle __security_init_cookie$MH() {
+        return RuntimeHelper.requireNonNull(constants$0.const$3,"__security_init_cookie");
+    }
+    /**
+     * {@snippet :
+     * void __security_init_cookie();
+     * }
+     */
+    public static void __security_init_cookie() {
+        var mh$ = __security_init_cookie$MH();
+        try {
+            mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __security_check_cookie$MH() {
+        return RuntimeHelper.requireNonNull(constants$0.const$5,"__security_check_cookie");
+    }
+    /**
+     * {@snippet :
+     * void __security_check_cookie(uintptr_t _StackCookie);
+     * }
+     */
+    public static void __security_check_cookie(long _StackCookie) {
+        var mh$ = __security_check_cookie$MH();
+        try {
+            mh$.invokeExact(_StackCookie);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __report_gsfailure$MH() {
+        return RuntimeHelper.requireNonNull(constants$1.const$0,"__report_gsfailure");
+    }
+    /**
+     * {@snippet :
+     * void __report_gsfailure(uintptr_t _StackCookie);
+     * }
+     */
+    public static void __report_gsfailure(long _StackCookie) {
+        var mh$ = __report_gsfailure$MH();
+        try {
+            mh$.invokeExact(_StackCookie);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MemoryLayout __security_cookie$LAYOUT() {
+        return JAVA_LONG;
+    }
+    public static VarHandle __security_cookie$VH() {
+        return constants$1.const$1;
+    }
+    public static MemorySegment __security_cookie$SEGMENT() {
+        return RuntimeHelper.requireNonNull(constants$1.const$2,"__security_cookie");
+    }
+    /**
+     * Getter for variable:
+     * {@snippet :
+     * uintptr_t __security_cookie;
+     * }
+     */
+    public static long __security_cookie$get() {
+        return (long) constants$1.const$1.get(RuntimeHelper.requireNonNull(constants$1.const$2, "__security_cookie"));
+    }
+    /**
+     * Setter for variable:
+     * {@snippet :
+     * uintptr_t __security_cookie;
+     * }
+     */
+    public static void __security_cookie$set(long x) {
+        constants$1.const$1.set(RuntimeHelper.requireNonNull(constants$1.const$2, "__security_cookie"), x);
+    }
+    public static MethodHandle _invalid_parameter_noinfo$MH() {
+        return RuntimeHelper.requireNonNull(constants$1.const$3,"_invalid_parameter_noinfo");
+    }
+    /**
+     * {@snippet :
+     * void _invalid_parameter_noinfo();
+     * }
+     */
+    public static void _invalid_parameter_noinfo() {
+        var mh$ = _invalid_parameter_noinfo$MH();
+        try {
+            mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _invalid_parameter_noinfo_noreturn$MH() {
+        return RuntimeHelper.requireNonNull(constants$1.const$4,"_invalid_parameter_noinfo_noreturn");
+    }
+    /**
+     * {@snippet :
+     * void _invalid_parameter_noinfo_noreturn();
+     * }
+     */
+    public static void _invalid_parameter_noinfo_noreturn() {
+        var mh$ = _invalid_parameter_noinfo_noreturn$MH();
+        try {
+            mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _invoke_watson$MH() {
+        return RuntimeHelper.requireNonNull(constants$1.const$6,"_invoke_watson");
+    }
+    /**
+     * {@snippet :
+     * void _invoke_watson(const wchar_t* _Expression, const wchar_t* _FunctionName, const wchar_t* _FileName, unsigned int _LineNo, uintptr_t _Reserved);
+     * }
+     */
+    public static void _invoke_watson(MemorySegment _Expression, MemorySegment _FunctionName, MemorySegment _FileName, int _LineNo, long _Reserved) {
+        var mh$ = _invoke_watson$MH();
+        try {
+            mh$.invokeExact(_Expression, _FunctionName, _FileName, _LineNo, _Reserved);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    /**
+     * {@snippet :
+     * typedef int errno_t;
+     * }
+     */
+    public static final OfInt errno_t = JAVA_INT;
+    /**
+     * {@snippet :
+     * typedef unsigned short wint_t;
+     * }
+     */
+    public static final OfShort wint_t = JAVA_SHORT;
+    /**
+     * {@snippet :
+     * typedef unsigned short wctype_t;
+     * }
+     */
+    public static final OfShort wctype_t = JAVA_SHORT;
+    /**
+     * {@snippet :
+     * typedef long __time32_t;
+     * }
+     */
+    public static final OfInt __time32_t = JAVA_INT;
+    /**
+     * {@snippet :
+     * typedef long long __time64_t;
+     * }
+     */
+    public static final OfLong __time64_t = JAVA_LONG;
+    /**
+     * {@snippet :
+     * typedef struct __crt_locale_pointers* _locale_t;
+     * }
+     */
+    public static final AddressLayout _locale_t = RuntimeHelper.POINTER;
+    /**
+     * {@snippet :
+     * typedef long long time_t;
+     * }
+     */
+    public static final OfLong time_t = JAVA_LONG;
+    /**
+     * {@snippet :
+     * typedef unsigned long long rsize_t;
+     * }
+     */
+    public static final OfLong rsize_t = JAVA_LONG;
+    public static MethodHandle _errno$MH() {
+        return RuntimeHelper.requireNonNull(constants$3.const$6,"_errno");
+    }
+    /**
+     * {@snippet :
+     * int* _errno();
+     * }
+     */
+    public static MemorySegment _errno() {
+        var mh$ = _errno$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _set_errno$MH() {
+        return RuntimeHelper.requireNonNull(constants$4.const$1,"_set_errno");
+    }
+    /**
+     * {@snippet :
+     * errno_t _set_errno(int _Value);
+     * }
+     */
+    public static int _set_errno(int _Value) {
+        var mh$ = _set_errno$MH();
+        try {
+            return (int)mh$.invokeExact(_Value);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _get_errno$MH() {
+        return RuntimeHelper.requireNonNull(constants$4.const$3,"_get_errno");
+    }
+    /**
+     * {@snippet :
+     * errno_t _get_errno(int* _Value);
+     * }
+     */
+    public static int _get_errno(MemorySegment _Value) {
+        var mh$ = _get_errno$MH();
+        try {
+            return (int)mh$.invokeExact(_Value);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __doserrno$MH() {
+        return RuntimeHelper.requireNonNull(constants$4.const$4,"__doserrno");
+    }
+    /**
+     * {@snippet :
+     * unsigned long* __doserrno();
+     * }
+     */
+    public static MemorySegment __doserrno() {
+        var mh$ = __doserrno$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _set_doserrno$MH() {
+        return RuntimeHelper.requireNonNull(constants$4.const$5,"_set_doserrno");
+    }
+    /**
+     * {@snippet :
+     * errno_t _set_doserrno(unsigned long _Value);
+     * }
+     */
+    public static int _set_doserrno(int _Value) {
+        var mh$ = _set_doserrno$MH();
+        try {
+            return (int)mh$.invokeExact(_Value);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _get_doserrno$MH() {
+        return RuntimeHelper.requireNonNull(constants$5.const$0,"_get_doserrno");
+    }
+    /**
+     * {@snippet :
+     * errno_t _get_doserrno(unsigned long* _Value);
+     * }
+     */
+    public static int _get_doserrno(MemorySegment _Value) {
+        var mh$ = _get_doserrno$MH();
+        try {
+            return (int)mh$.invokeExact(_Value);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle memchr$MH() {
+        return RuntimeHelper.requireNonNull(constants$5.const$2,"memchr");
+    }
+    /**
+     * {@snippet :
+     * void* memchr(void* _Buf, int _Val, size_t _MaxCount);
+     * }
+     */
+    public static MemorySegment memchr(MemorySegment _Buf, int _Val, long _MaxCount) {
+        var mh$ = memchr$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Buf, _Val, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle memcmp$MH() {
+        return RuntimeHelper.requireNonNull(constants$5.const$4,"memcmp");
+    }
+    /**
+     * {@snippet :
+     * int memcmp(void* _Buf1, void* _Buf2, size_t _Size);
+     * }
+     */
+    public static int memcmp(MemorySegment _Buf1, MemorySegment _Buf2, long _Size) {
+        var mh$ = memcmp$MH();
+        try {
+            return (int)mh$.invokeExact(_Buf1, _Buf2, _Size);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle memcpy$MH() {
+        return RuntimeHelper.requireNonNull(constants$5.const$6,"memcpy");
+    }
+    /**
+     * {@snippet :
+     * void* memcpy(void* _Dst, void* _Src, size_t _Size);
+     * }
+     */
+    public static MemorySegment memcpy(MemorySegment _Dst, MemorySegment _Src, long _Size) {
+        var mh$ = memcpy$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Dst, _Src, _Size);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle memmove$MH() {
+        return RuntimeHelper.requireNonNull(constants$6.const$0,"memmove");
+    }
+    /**
+     * {@snippet :
+     * void* memmove(void* _Dst, void* _Src, size_t _Size);
+     * }
+     */
+    public static MemorySegment memmove(MemorySegment _Dst, MemorySegment _Src, long _Size) {
+        var mh$ = memmove$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Dst, _Src, _Size);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle memset$MH() {
+        return RuntimeHelper.requireNonNull(constants$6.const$1,"memset");
+    }
+    /**
+     * {@snippet :
+     * void* memset(void* _Dst, int _Val, size_t _Size);
+     * }
+     */
+    public static MemorySegment memset(MemorySegment _Dst, int _Val, long _Size) {
+        var mh$ = memset$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Dst, _Val, _Size);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle strchr$MH() {
+        return RuntimeHelper.requireNonNull(constants$6.const$3,"strchr");
+    }
+    /**
+     * {@snippet :
+     * char* strchr(char* _Str, int _Val);
+     * }
+     */
+    public static MemorySegment strchr(MemorySegment _Str, int _Val) {
+        var mh$ = strchr$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Str, _Val);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle strrchr$MH() {
+        return RuntimeHelper.requireNonNull(constants$6.const$4,"strrchr");
+    }
+    /**
+     * {@snippet :
+     * char* strrchr(char* _Str, int _Ch);
+     * }
+     */
+    public static MemorySegment strrchr(MemorySegment _Str, int _Ch) {
+        var mh$ = strrchr$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Str, _Ch);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle strstr$MH() {
+        return RuntimeHelper.requireNonNull(constants$6.const$6,"strstr");
+    }
+    /**
+     * {@snippet :
+     * char* strstr(char* _Str, char* _SubStr);
+     * }
+     */
+    public static MemorySegment strstr(MemorySegment _Str, MemorySegment _SubStr) {
+        var mh$ = strstr$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Str, _SubStr);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcschr$MH() {
+        return RuntimeHelper.requireNonNull(constants$7.const$1,"wcschr");
+    }
+    /**
+     * {@snippet :
+     * unsigned short* wcschr(const wchar_t* _Str, wchar_t _Ch);
+     * }
+     */
+    public static MemorySegment wcschr(MemorySegment _Str, short _Ch) {
+        var mh$ = wcschr$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Str, _Ch);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsrchr$MH() {
+        return RuntimeHelper.requireNonNull(constants$7.const$2,"wcsrchr");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcsrchr(const wchar_t* _Str, wchar_t _Ch);
+     * }
+     */
+    public static MemorySegment wcsrchr(MemorySegment _Str, short _Ch) {
+        var mh$ = wcsrchr$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Str, _Ch);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsstr$MH() {
+        return RuntimeHelper.requireNonNull(constants$7.const$3,"wcsstr");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcsstr(const wchar_t* _Str, const wchar_t* _SubStr);
+     * }
+     */
+    public static MemorySegment wcsstr(MemorySegment _Str, MemorySegment _SubStr) {
+        var mh$ = wcsstr$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Str, _SubStr);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _cgetws_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$7.const$5,"_cgetws_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _cgetws_s(wchar_t* _Buffer, size_t _BufferCount, size_t* _SizeRead);
+     * }
+     */
+    public static int _cgetws_s(MemorySegment _Buffer, long _BufferCount, MemorySegment _SizeRead) {
+        var mh$ = _cgetws_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _BufferCount, _SizeRead);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _cputws$MH() {
+        return RuntimeHelper.requireNonNull(constants$8.const$0,"_cputws");
+    }
+    /**
+     * {@snippet :
+     * int _cputws(const wchar_t* _Buffer);
+     * }
+     */
+    public static int _cputws(MemorySegment _Buffer) {
+        var mh$ = _cputws$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _getwch$MH() {
+        return RuntimeHelper.requireNonNull(constants$8.const$2,"_getwch");
+    }
+    /**
+     * {@snippet :
+     * wint_t _getwch();
+     * }
+     */
+    public static short _getwch() {
+        var mh$ = _getwch$MH();
+        try {
+            return (short)mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _getwche$MH() {
+        return RuntimeHelper.requireNonNull(constants$8.const$3,"_getwche");
+    }
+    /**
+     * {@snippet :
+     * wint_t _getwche();
+     * }
+     */
+    public static short _getwche() {
+        var mh$ = _getwche$MH();
+        try {
+            return (short)mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _putwch$MH() {
+        return RuntimeHelper.requireNonNull(constants$8.const$5,"_putwch");
+    }
+    /**
+     * {@snippet :
+     * wint_t _putwch(wchar_t _Character);
+     * }
+     */
+    public static short _putwch(short _Character) {
+        var mh$ = _putwch$MH();
+        try {
+            return (short)mh$.invokeExact(_Character);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _ungetwch$MH() {
+        return RuntimeHelper.requireNonNull(constants$9.const$0,"_ungetwch");
+    }
+    /**
+     * {@snippet :
+     * wint_t _ungetwch(wint_t _Character);
+     * }
+     */
+    public static short _ungetwch(short _Character) {
+        var mh$ = _ungetwch$MH();
+        try {
+            return (short)mh$.invokeExact(_Character);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _getwch_nolock$MH() {
+        return RuntimeHelper.requireNonNull(constants$9.const$1,"_getwch_nolock");
+    }
+    /**
+     * {@snippet :
+     * wint_t _getwch_nolock();
+     * }
+     */
+    public static short _getwch_nolock() {
+        var mh$ = _getwch_nolock$MH();
+        try {
+            return (short)mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _getwche_nolock$MH() {
+        return RuntimeHelper.requireNonNull(constants$9.const$2,"_getwche_nolock");
+    }
+    /**
+     * {@snippet :
+     * wint_t _getwche_nolock();
+     * }
+     */
+    public static short _getwche_nolock() {
+        var mh$ = _getwche_nolock$MH();
+        try {
+            return (short)mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _putwch_nolock$MH() {
+        return RuntimeHelper.requireNonNull(constants$9.const$3,"_putwch_nolock");
+    }
+    /**
+     * {@snippet :
+     * wint_t _putwch_nolock(wchar_t _Character);
+     * }
+     */
+    public static short _putwch_nolock(short _Character) {
+        var mh$ = _putwch_nolock$MH();
+        try {
+            return (short)mh$.invokeExact(_Character);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _ungetwch_nolock$MH() {
+        return RuntimeHelper.requireNonNull(constants$9.const$4,"_ungetwch_nolock");
+    }
+    /**
+     * {@snippet :
+     * wint_t _ungetwch_nolock(wint_t _Character);
+     * }
+     */
+    public static short _ungetwch_nolock(short _Character) {
+        var mh$ = _ungetwch_nolock$MH();
+        try {
+            return (short)mh$.invokeExact(_Character);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __conio_common_vcwprintf$MH() {
+        return RuntimeHelper.requireNonNull(constants$9.const$6,"__conio_common_vcwprintf");
+    }
+    /**
+     * {@snippet :
+     * int __conio_common_vcwprintf(unsigned long long _Options, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __conio_common_vcwprintf(long _Options, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __conio_common_vcwprintf$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __conio_common_vcwprintf_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$10.const$0,"__conio_common_vcwprintf_s");
+    }
+    /**
+     * {@snippet :
+     * int __conio_common_vcwprintf_s(unsigned long long _Options, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __conio_common_vcwprintf_s(long _Options, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __conio_common_vcwprintf_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __conio_common_vcwprintf_p$MH() {
+        return RuntimeHelper.requireNonNull(constants$10.const$1,"__conio_common_vcwprintf_p");
+    }
+    /**
+     * {@snippet :
+     * int __conio_common_vcwprintf_p(unsigned long long _Options, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __conio_common_vcwprintf_p(long _Options, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __conio_common_vcwprintf_p$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __conio_common_vcwscanf$MH() {
+        return RuntimeHelper.requireNonNull(constants$10.const$2,"__conio_common_vcwscanf");
+    }
+    /**
+     * {@snippet :
+     * int __conio_common_vcwscanf(unsigned long long _Options, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __conio_common_vcwscanf(long _Options, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __conio_common_vcwscanf$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __pctype_func$MH() {
+        return RuntimeHelper.requireNonNull(constants$10.const$3,"__pctype_func");
+    }
+    /**
+     * {@snippet :
+     * unsigned short* __pctype_func();
+     * }
+     */
+    public static MemorySegment __pctype_func() {
+        var mh$ = __pctype_func$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __pwctype_func$MH() {
+        return RuntimeHelper.requireNonNull(constants$10.const$4,"__pwctype_func");
+    }
+    /**
+     * {@snippet :
+     * const wctype_t* __pwctype_func();
+     * }
+     */
+    public static MemorySegment __pwctype_func() {
+        var mh$ = __pwctype_func$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswalnum$MH() {
+        return RuntimeHelper.requireNonNull(constants$10.const$6,"iswalnum");
+    }
+    /**
+     * {@snippet :
+     * int iswalnum(wint_t _C);
+     * }
+     */
+    public static int iswalnum(short _C) {
+        var mh$ = iswalnum$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswalpha$MH() {
+        return RuntimeHelper.requireNonNull(constants$11.const$0,"iswalpha");
+    }
+    /**
+     * {@snippet :
+     * int iswalpha(wint_t _C);
+     * }
+     */
+    public static int iswalpha(short _C) {
+        var mh$ = iswalpha$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswascii$MH() {
+        return RuntimeHelper.requireNonNull(constants$11.const$1,"iswascii");
+    }
+    /**
+     * {@snippet :
+     * int iswascii(wint_t _C);
+     * }
+     */
+    public static int iswascii(short _C) {
+        var mh$ = iswascii$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswblank$MH() {
+        return RuntimeHelper.requireNonNull(constants$11.const$2,"iswblank");
+    }
+    /**
+     * {@snippet :
+     * int iswblank(wint_t _C);
+     * }
+     */
+    public static int iswblank(short _C) {
+        var mh$ = iswblank$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswcntrl$MH() {
+        return RuntimeHelper.requireNonNull(constants$11.const$3,"iswcntrl");
+    }
+    /**
+     * {@snippet :
+     * int iswcntrl(wint_t _C);
+     * }
+     */
+    public static int iswcntrl(short _C) {
+        var mh$ = iswcntrl$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswdigit$MH() {
+        return RuntimeHelper.requireNonNull(constants$11.const$4,"iswdigit");
+    }
+    /**
+     * {@snippet :
+     * int iswdigit(wint_t _C);
+     * }
+     */
+    public static int iswdigit(short _C) {
+        var mh$ = iswdigit$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswgraph$MH() {
+        return RuntimeHelper.requireNonNull(constants$11.const$5,"iswgraph");
+    }
+    /**
+     * {@snippet :
+     * int iswgraph(wint_t _C);
+     * }
+     */
+    public static int iswgraph(short _C) {
+        var mh$ = iswgraph$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswlower$MH() {
+        return RuntimeHelper.requireNonNull(constants$12.const$0,"iswlower");
+    }
+    /**
+     * {@snippet :
+     * int iswlower(wint_t _C);
+     * }
+     */
+    public static int iswlower(short _C) {
+        var mh$ = iswlower$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswprint$MH() {
+        return RuntimeHelper.requireNonNull(constants$12.const$1,"iswprint");
+    }
+    /**
+     * {@snippet :
+     * int iswprint(wint_t _C);
+     * }
+     */
+    public static int iswprint(short _C) {
+        var mh$ = iswprint$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswpunct$MH() {
+        return RuntimeHelper.requireNonNull(constants$12.const$2,"iswpunct");
+    }
+    /**
+     * {@snippet :
+     * int iswpunct(wint_t _C);
+     * }
+     */
+    public static int iswpunct(short _C) {
+        var mh$ = iswpunct$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswspace$MH() {
+        return RuntimeHelper.requireNonNull(constants$12.const$3,"iswspace");
+    }
+    /**
+     * {@snippet :
+     * int iswspace(wint_t _C);
+     * }
+     */
+    public static int iswspace(short _C) {
+        var mh$ = iswspace$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswupper$MH() {
+        return RuntimeHelper.requireNonNull(constants$12.const$4,"iswupper");
+    }
+    /**
+     * {@snippet :
+     * int iswupper(wint_t _C);
+     * }
+     */
+    public static int iswupper(short _C) {
+        var mh$ = iswupper$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswxdigit$MH() {
+        return RuntimeHelper.requireNonNull(constants$12.const$5,"iswxdigit");
+    }
+    /**
+     * {@snippet :
+     * int iswxdigit(wint_t _C);
+     * }
+     */
+    public static int iswxdigit(short _C) {
+        var mh$ = iswxdigit$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __iswcsymf$MH() {
+        return RuntimeHelper.requireNonNull(constants$13.const$0,"__iswcsymf");
+    }
+    /**
+     * {@snippet :
+     * int __iswcsymf(wint_t _C);
+     * }
+     */
+    public static int __iswcsymf(short _C) {
+        var mh$ = __iswcsymf$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __iswcsym$MH() {
+        return RuntimeHelper.requireNonNull(constants$13.const$1,"__iswcsym");
+    }
+    /**
+     * {@snippet :
+     * int __iswcsym(wint_t _C);
+     * }
+     */
+    public static int __iswcsym(short _C) {
+        var mh$ = __iswcsym$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswalnum_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$13.const$3,"_iswalnum_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswalnum_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswalnum_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswalnum_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswalpha_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$13.const$4,"_iswalpha_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswalpha_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswalpha_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswalpha_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswblank_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$13.const$5,"_iswblank_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswblank_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswblank_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswblank_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswcntrl_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$14.const$0,"_iswcntrl_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswcntrl_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswcntrl_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswcntrl_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswdigit_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$14.const$1,"_iswdigit_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswdigit_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswdigit_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswdigit_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswgraph_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$14.const$2,"_iswgraph_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswgraph_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswgraph_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswgraph_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswlower_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$14.const$3,"_iswlower_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswlower_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswlower_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswlower_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswprint_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$14.const$4,"_iswprint_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswprint_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswprint_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswprint_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswpunct_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$14.const$5,"_iswpunct_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswpunct_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswpunct_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswpunct_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswspace_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$15.const$0,"_iswspace_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswspace_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswspace_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswspace_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswupper_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$15.const$1,"_iswupper_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswupper_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswupper_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswupper_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswxdigit_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$15.const$2,"_iswxdigit_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswxdigit_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswxdigit_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswxdigit_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswcsymf_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$15.const$3,"_iswcsymf_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswcsymf_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswcsymf_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswcsymf_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswcsym_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$15.const$4,"_iswcsym_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswcsym_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static int _iswcsym_l(short _C, MemorySegment _Locale) {
+        var mh$ = _iswcsym_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle towupper$MH() {
+        return RuntimeHelper.requireNonNull(constants$15.const$5,"towupper");
+    }
+    /**
+     * {@snippet :
+     * wint_t towupper(wint_t _C);
+     * }
+     */
+    public static short towupper(short _C) {
+        var mh$ = towupper$MH();
+        try {
+            return (short)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle towlower$MH() {
+        return RuntimeHelper.requireNonNull(constants$16.const$0,"towlower");
+    }
+    /**
+     * {@snippet :
+     * wint_t towlower(wint_t _C);
+     * }
+     */
+    public static short towlower(short _C) {
+        var mh$ = towlower$MH();
+        try {
+            return (short)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle iswctype$MH() {
+        return RuntimeHelper.requireNonNull(constants$16.const$2,"iswctype");
+    }
+    /**
+     * {@snippet :
+     * int iswctype(wint_t _C, wctype_t _Type);
+     * }
+     */
+    public static int iswctype(short _C, short _Type) {
+        var mh$ = iswctype$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Type);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _towupper_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$16.const$4,"_towupper_l");
+    }
+    /**
+     * {@snippet :
+     * wint_t _towupper_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static short _towupper_l(short _C, MemorySegment _Locale) {
+        var mh$ = _towupper_l$MH();
+        try {
+            return (short)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _towlower_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$16.const$5,"_towlower_l");
+    }
+    /**
+     * {@snippet :
+     * wint_t _towlower_l(wint_t _C, _locale_t _Locale);
+     * }
+     */
+    public static short _towlower_l(short _C, MemorySegment _Locale) {
+        var mh$ = _towlower_l$MH();
+        try {
+            return (short)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _iswctype_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$17.const$1,"_iswctype_l");
+    }
+    /**
+     * {@snippet :
+     * int _iswctype_l(wint_t _C, wctype_t _Type, _locale_t _Locale);
+     * }
+     */
+    public static int _iswctype_l(short _C, short _Type, MemorySegment _Locale) {
+        var mh$ = _iswctype_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Type, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle isleadbyte$MH() {
+        return RuntimeHelper.requireNonNull(constants$17.const$2,"isleadbyte");
+    }
+    /**
+     * {@snippet :
+     * int isleadbyte(int _C);
+     * }
+     */
+    public static int isleadbyte(int _C) {
+        var mh$ = isleadbyte$MH();
+        try {
+            return (int)mh$.invokeExact(_C);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _isleadbyte_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$17.const$4,"_isleadbyte_l");
+    }
+    /**
+     * {@snippet :
+     * int _isleadbyte_l(int _C, _locale_t _Locale);
+     * }
+     */
+    public static int _isleadbyte_l(int _C, MemorySegment _Locale) {
+        var mh$ = _isleadbyte_l$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle is_wctype$MH() {
+        return RuntimeHelper.requireNonNull(constants$17.const$5,"is_wctype");
+    }
+    /**
+     * {@snippet :
+     * int is_wctype(wint_t _C, wctype_t _Type);
+     * }
+     */
+    public static int is_wctype(short _C, short _Type) {
+        var mh$ = is_wctype$MH();
+        try {
+            return (int)mh$.invokeExact(_C, _Type);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wgetcwd$MH() {
+        return RuntimeHelper.requireNonNull(constants$18.const$0,"_wgetcwd");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wgetcwd(wchar_t* _DstBuf, int _SizeInWords);
+     * }
+     */
+    public static MemorySegment _wgetcwd(MemorySegment _DstBuf, int _SizeInWords) {
+        var mh$ = _wgetcwd$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_DstBuf, _SizeInWords);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wgetdcwd$MH() {
+        return RuntimeHelper.requireNonNull(constants$18.const$2,"_wgetdcwd");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wgetdcwd(int _Drive, wchar_t* _DstBuf, int _SizeInWords);
+     * }
+     */
+    public static MemorySegment _wgetdcwd(int _Drive, MemorySegment _DstBuf, int _SizeInWords) {
+        var mh$ = _wgetdcwd$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Drive, _DstBuf, _SizeInWords);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wchdir$MH() {
+        return RuntimeHelper.requireNonNull(constants$18.const$3,"_wchdir");
+    }
+    /**
+     * {@snippet :
+     * int _wchdir(const wchar_t* _Path);
+     * }
+     */
+    public static int _wchdir(MemorySegment _Path) {
+        var mh$ = _wchdir$MH();
+        try {
+            return (int)mh$.invokeExact(_Path);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wmkdir$MH() {
+        return RuntimeHelper.requireNonNull(constants$18.const$4,"_wmkdir");
+    }
+    /**
+     * {@snippet :
+     * int _wmkdir(const wchar_t* _Path);
+     * }
+     */
+    public static int _wmkdir(MemorySegment _Path) {
+        var mh$ = _wmkdir$MH();
+        try {
+            return (int)mh$.invokeExact(_Path);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wrmdir$MH() {
+        return RuntimeHelper.requireNonNull(constants$18.const$5,"_wrmdir");
+    }
+    /**
+     * {@snippet :
+     * int _wrmdir(const wchar_t* _Path);
+     * }
+     */
+    public static int _wrmdir(MemorySegment _Path) {
+        var mh$ = _wrmdir$MH();
+        try {
+            return (int)mh$.invokeExact(_Path);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    /**
+     * {@snippet :
+     * typedef unsigned long _fsize_t;
+     * }
+     */
+    public static final OfInt _fsize_t = JAVA_INT;
+    public static MethodHandle _waccess$MH() {
+        return RuntimeHelper.requireNonNull(constants$23.const$1,"_waccess");
+    }
+    /**
+     * {@snippet :
+     * int _waccess(const wchar_t* _FileName, int _AccessMode);
+     * }
+     */
+    public static int _waccess(MemorySegment _FileName, int _AccessMode) {
+        var mh$ = _waccess$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _AccessMode);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _waccess_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$23.const$2,"_waccess_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _waccess_s(const wchar_t* _FileName, int _AccessMode);
+     * }
+     */
+    public static int _waccess_s(MemorySegment _FileName, int _AccessMode) {
+        var mh$ = _waccess_s$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _AccessMode);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wchmod$MH() {
+        return RuntimeHelper.requireNonNull(constants$23.const$3,"_wchmod");
+    }
+    /**
+     * {@snippet :
+     * int _wchmod(const wchar_t* _FileName, int _Mode);
+     * }
+     */
+    public static int _wchmod(MemorySegment _FileName, int _Mode) {
+        var mh$ = _wchmod$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _Mode);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcreat$MH() {
+        return RuntimeHelper.requireNonNull(constants$23.const$4,"_wcreat");
+    }
+    /**
+     * {@snippet :
+     * int _wcreat(const wchar_t* _FileName, int _PermissionMode);
+     * }
+     */
+    public static int _wcreat(MemorySegment _FileName, int _PermissionMode) {
+        var mh$ = _wcreat$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _PermissionMode);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfindfirst32$MH() {
+        return RuntimeHelper.requireNonNull(constants$23.const$6,"_wfindfirst32");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wfindfirst32(const wchar_t* _FileName, struct _wfinddata32_t* _FindData);
+     * }
+     */
+    public static long _wfindfirst32(MemorySegment _FileName, MemorySegment _FindData) {
+        var mh$ = _wfindfirst32$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _FindData);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfindnext32$MH() {
+        return RuntimeHelper.requireNonNull(constants$24.const$1,"_wfindnext32");
+    }
+    /**
+     * {@snippet :
+     * int _wfindnext32(intptr_t _FindHandle, struct _wfinddata32_t* _FindData);
+     * }
+     */
+    public static int _wfindnext32(long _FindHandle, MemorySegment _FindData) {
+        var mh$ = _wfindnext32$MH();
+        try {
+            return (int)mh$.invokeExact(_FindHandle, _FindData);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wunlink$MH() {
+        return RuntimeHelper.requireNonNull(constants$24.const$2,"_wunlink");
+    }
+    /**
+     * {@snippet :
+     * int _wunlink(const wchar_t* _FileName);
+     * }
+     */
+    public static int _wunlink(MemorySegment _FileName) {
+        var mh$ = _wunlink$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wrename$MH() {
+        return RuntimeHelper.requireNonNull(constants$24.const$4,"_wrename");
+    }
+    /**
+     * {@snippet :
+     * int _wrename(const wchar_t* _OldFileName, const wchar_t* _NewFileName);
+     * }
+     */
+    public static int _wrename(MemorySegment _OldFileName, MemorySegment _NewFileName) {
+        var mh$ = _wrename$MH();
+        try {
+            return (int)mh$.invokeExact(_OldFileName, _NewFileName);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wmktemp_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$24.const$6,"_wmktemp_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wmktemp_s(wchar_t* _TemplateName, size_t _SizeInWords);
+     * }
+     */
+    public static int _wmktemp_s(MemorySegment _TemplateName, long _SizeInWords) {
+        var mh$ = _wmktemp_s$MH();
+        try {
+            return (int)mh$.invokeExact(_TemplateName, _SizeInWords);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wmktemp$MH() {
+        return RuntimeHelper.requireNonNull(constants$25.const$1,"_wmktemp");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wmktemp(wchar_t* _TemplateName);
+     * }
+     */
+    public static MemorySegment _wmktemp(MemorySegment _TemplateName) {
+        var mh$ = _wmktemp$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_TemplateName);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfindfirst32i64$MH() {
+        return RuntimeHelper.requireNonNull(constants$25.const$2,"_wfindfirst32i64");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wfindfirst32i64(const wchar_t* _FileName, struct _wfinddata32i64_t* _FindData);
+     * }
+     */
+    public static long _wfindfirst32i64(MemorySegment _FileName, MemorySegment _FindData) {
+        var mh$ = _wfindfirst32i64$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _FindData);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfindfirst64i32$MH() {
+        return RuntimeHelper.requireNonNull(constants$25.const$3,"_wfindfirst64i32");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wfindfirst64i32(const wchar_t* _FileName, struct _wfinddata64i32_t* _FindData);
+     * }
+     */
+    public static long _wfindfirst64i32(MemorySegment _FileName, MemorySegment _FindData) {
+        var mh$ = _wfindfirst64i32$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _FindData);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfindfirst64$MH() {
+        return RuntimeHelper.requireNonNull(constants$25.const$4,"_wfindfirst64");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wfindfirst64(const wchar_t* _FileName, struct _wfinddata64_t* _FindData);
+     * }
+     */
+    public static long _wfindfirst64(MemorySegment _FileName, MemorySegment _FindData) {
+        var mh$ = _wfindfirst64$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _FindData);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfindnext32i64$MH() {
+        return RuntimeHelper.requireNonNull(constants$25.const$5,"_wfindnext32i64");
+    }
+    /**
+     * {@snippet :
+     * int _wfindnext32i64(intptr_t _FindHandle, struct _wfinddata32i64_t* _FindData);
+     * }
+     */
+    public static int _wfindnext32i64(long _FindHandle, MemorySegment _FindData) {
+        var mh$ = _wfindnext32i64$MH();
+        try {
+            return (int)mh$.invokeExact(_FindHandle, _FindData);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfindnext64i32$MH() {
+        return RuntimeHelper.requireNonNull(constants$26.const$0,"_wfindnext64i32");
+    }
+    /**
+     * {@snippet :
+     * int _wfindnext64i32(intptr_t _FindHandle, struct _wfinddata64i32_t* _FindData);
+     * }
+     */
+    public static int _wfindnext64i32(long _FindHandle, MemorySegment _FindData) {
+        var mh$ = _wfindnext64i32$MH();
+        try {
+            return (int)mh$.invokeExact(_FindHandle, _FindData);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfindnext64$MH() {
+        return RuntimeHelper.requireNonNull(constants$26.const$1,"_wfindnext64");
+    }
+    /**
+     * {@snippet :
+     * int _wfindnext64(intptr_t _FindHandle, struct _wfinddata64_t* _FindData);
+     * }
+     */
+    public static int _wfindnext64(long _FindHandle, MemorySegment _FindData) {
+        var mh$ = _wfindnext64$MH();
+        try {
+            return (int)mh$.invokeExact(_FindHandle, _FindData);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wsopen_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$26.const$3,"_wsopen_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wsopen_s(int* _FileHandle, const wchar_t* _FileName, int _OpenFlag, int _ShareFlag, int _PermissionFlag);
+     * }
+     */
+    public static int _wsopen_s(MemorySegment _FileHandle, MemorySegment _FileName, int _OpenFlag, int _ShareFlag, int _PermissionFlag) {
+        var mh$ = _wsopen_s$MH();
+        try {
+            return (int)mh$.invokeExact(_FileHandle, _FileName, _OpenFlag, _ShareFlag, _PermissionFlag);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wsopen_dispatch$MH() {
+        return RuntimeHelper.requireNonNull(constants$26.const$5,"_wsopen_dispatch");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wsopen_dispatch(const wchar_t* _FileName, int _OFlag, int _ShFlag, int _PMode, int* _PFileHandle, int _BSecure);
+     * }
+     */
+    public static int _wsopen_dispatch(MemorySegment _FileName, int _OFlag, int _ShFlag, int _PMode, MemorySegment _PFileHandle, int _BSecure) {
+        var mh$ = _wsopen_dispatch$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _OFlag, _ShFlag, _PMode, _PFileHandle, _BSecure);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wopen$MH() {
+        return RuntimeHelper.requireNonNull(constants$27.const$0,"_wopen");
+    }
+    /**
+     * {@snippet :
+     * int _wopen(const wchar_t* _FileName, int _OpenFlag,...);
+     * }
+     */
+    public static int _wopen(MemorySegment _FileName, int _OpenFlag, Object... x2) {
+        var mh$ = _wopen$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _OpenFlag, x2);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wsopen$MH() {
+        return RuntimeHelper.requireNonNull(constants$27.const$2,"_wsopen");
+    }
+    /**
+     * {@snippet :
+     * int _wsopen(const wchar_t* _FileName, int _OpenFlag, int _ShareFlag,...);
+     * }
+     */
+    public static int _wsopen(MemorySegment _FileName, int _OpenFlag, int _ShareFlag, Object... x3) {
+        var mh$ = _wsopen$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _OpenFlag, _ShareFlag, x3);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wexecl$MH() {
+        return RuntimeHelper.requireNonNull(constants$27.const$3,"_wexecl");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wexecl(const wchar_t* _FileName, const wchar_t* _ArgList,...);
+     * }
+     */
+    public static long _wexecl(MemorySegment _FileName, MemorySegment _ArgList, Object... x2) {
+        var mh$ = _wexecl$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _ArgList, x2);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wexecle$MH() {
+        return RuntimeHelper.requireNonNull(constants$27.const$4,"_wexecle");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wexecle(const wchar_t* _FileName, const wchar_t* _ArgList,...);
+     * }
+     */
+    public static long _wexecle(MemorySegment _FileName, MemorySegment _ArgList, Object... x2) {
+        var mh$ = _wexecle$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _ArgList, x2);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wexeclp$MH() {
+        return RuntimeHelper.requireNonNull(constants$27.const$5,"_wexeclp");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wexeclp(const wchar_t* _FileName, const wchar_t* _ArgList,...);
+     * }
+     */
+    public static long _wexeclp(MemorySegment _FileName, MemorySegment _ArgList, Object... x2) {
+        var mh$ = _wexeclp$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _ArgList, x2);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wexeclpe$MH() {
+        return RuntimeHelper.requireNonNull(constants$28.const$0,"_wexeclpe");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wexeclpe(const wchar_t* _FileName, const wchar_t* _ArgList,...);
+     * }
+     */
+    public static long _wexeclpe(MemorySegment _FileName, MemorySegment _ArgList, Object... x2) {
+        var mh$ = _wexeclpe$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _ArgList, x2);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wexecv$MH() {
+        return RuntimeHelper.requireNonNull(constants$28.const$1,"_wexecv");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wexecv(const wchar_t* _FileName, const wchar_t** _ArgList);
+     * }
+     */
+    public static long _wexecv(MemorySegment _FileName, MemorySegment _ArgList) {
+        var mh$ = _wexecv$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wexecve$MH() {
+        return RuntimeHelper.requireNonNull(constants$28.const$3,"_wexecve");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wexecve(const wchar_t* _FileName, const wchar_t** _ArgList, const wchar_t** _Env);
+     * }
+     */
+    public static long _wexecve(MemorySegment _FileName, MemorySegment _ArgList, MemorySegment _Env) {
+        var mh$ = _wexecve$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _ArgList, _Env);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wexecvp$MH() {
+        return RuntimeHelper.requireNonNull(constants$28.const$4,"_wexecvp");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wexecvp(const wchar_t* _FileName, const wchar_t** _ArgList);
+     * }
+     */
+    public static long _wexecvp(MemorySegment _FileName, MemorySegment _ArgList) {
+        var mh$ = _wexecvp$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wexecvpe$MH() {
+        return RuntimeHelper.requireNonNull(constants$28.const$5,"_wexecvpe");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wexecvpe(const wchar_t* _FileName, const wchar_t** _ArgList, const wchar_t** _Env);
+     * }
+     */
+    public static long _wexecvpe(MemorySegment _FileName, MemorySegment _ArgList, MemorySegment _Env) {
+        var mh$ = _wexecvpe$MH();
+        try {
+            return (long)mh$.invokeExact(_FileName, _ArgList, _Env);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wspawnl$MH() {
+        return RuntimeHelper.requireNonNull(constants$29.const$1,"_wspawnl");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wspawnl(int _Mode, const wchar_t* _FileName, const wchar_t* _ArgList,...);
+     * }
+     */
+    public static long _wspawnl(int _Mode, MemorySegment _FileName, MemorySegment _ArgList, Object... x3) {
+        var mh$ = _wspawnl$MH();
+        try {
+            return (long)mh$.invokeExact(_Mode, _FileName, _ArgList, x3);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wspawnle$MH() {
+        return RuntimeHelper.requireNonNull(constants$29.const$2,"_wspawnle");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wspawnle(int _Mode, const wchar_t* _FileName, const wchar_t* _ArgList,...);
+     * }
+     */
+    public static long _wspawnle(int _Mode, MemorySegment _FileName, MemorySegment _ArgList, Object... x3) {
+        var mh$ = _wspawnle$MH();
+        try {
+            return (long)mh$.invokeExact(_Mode, _FileName, _ArgList, x3);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wspawnlp$MH() {
+        return RuntimeHelper.requireNonNull(constants$29.const$3,"_wspawnlp");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wspawnlp(int _Mode, const wchar_t* _FileName, const wchar_t* _ArgList,...);
+     * }
+     */
+    public static long _wspawnlp(int _Mode, MemorySegment _FileName, MemorySegment _ArgList, Object... x3) {
+        var mh$ = _wspawnlp$MH();
+        try {
+            return (long)mh$.invokeExact(_Mode, _FileName, _ArgList, x3);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wspawnlpe$MH() {
+        return RuntimeHelper.requireNonNull(constants$29.const$4,"_wspawnlpe");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wspawnlpe(int _Mode, const wchar_t* _FileName, const wchar_t* _ArgList,...);
+     * }
+     */
+    public static long _wspawnlpe(int _Mode, MemorySegment _FileName, MemorySegment _ArgList, Object... x3) {
+        var mh$ = _wspawnlpe$MH();
+        try {
+            return (long)mh$.invokeExact(_Mode, _FileName, _ArgList, x3);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wspawnv$MH() {
+        return RuntimeHelper.requireNonNull(constants$29.const$5,"_wspawnv");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wspawnv(int _Mode, const wchar_t* _FileName, const wchar_t** _ArgList);
+     * }
+     */
+    public static long _wspawnv(int _Mode, MemorySegment _FileName, MemorySegment _ArgList) {
+        var mh$ = _wspawnv$MH();
+        try {
+            return (long)mh$.invokeExact(_Mode, _FileName, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wspawnve$MH() {
+        return RuntimeHelper.requireNonNull(constants$30.const$1,"_wspawnve");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wspawnve(int _Mode, const wchar_t* _FileName, const wchar_t** _ArgList, const wchar_t** _Env);
+     * }
+     */
+    public static long _wspawnve(int _Mode, MemorySegment _FileName, MemorySegment _ArgList, MemorySegment _Env) {
+        var mh$ = _wspawnve$MH();
+        try {
+            return (long)mh$.invokeExact(_Mode, _FileName, _ArgList, _Env);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wspawnvp$MH() {
+        return RuntimeHelper.requireNonNull(constants$30.const$2,"_wspawnvp");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wspawnvp(int _Mode, const wchar_t* _FileName, const wchar_t** _ArgList);
+     * }
+     */
+    public static long _wspawnvp(int _Mode, MemorySegment _FileName, MemorySegment _ArgList) {
+        var mh$ = _wspawnvp$MH();
+        try {
+            return (long)mh$.invokeExact(_Mode, _FileName, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wspawnvpe$MH() {
+        return RuntimeHelper.requireNonNull(constants$30.const$3,"_wspawnvpe");
+    }
+    /**
+     * {@snippet :
+     * intptr_t _wspawnvpe(int _Mode, const wchar_t* _FileName, const wchar_t** _ArgList, const wchar_t** _Env);
+     * }
+     */
+    public static long _wspawnvpe(int _Mode, MemorySegment _FileName, MemorySegment _ArgList, MemorySegment _Env) {
+        var mh$ = _wspawnvpe$MH();
+        try {
+            return (long)mh$.invokeExact(_Mode, _FileName, _ArgList, _Env);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wsystem$MH() {
+        return RuntimeHelper.requireNonNull(constants$30.const$4,"_wsystem");
+    }
+    /**
+     * {@snippet :
+     * int _wsystem(const wchar_t* _Command);
+     * }
+     */
+    public static int _wsystem(MemorySegment _Command) {
+        var mh$ = _wsystem$MH();
+        try {
+            return (int)mh$.invokeExact(_Command);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __acrt_iob_func$MH() {
+        return RuntimeHelper.requireNonNull(constants$31.const$2,"__acrt_iob_func");
+    }
+    /**
+     * {@snippet :
+     * FILE* __acrt_iob_func(unsigned int _Ix);
+     * }
+     */
+    public static MemorySegment __acrt_iob_func(int _Ix) {
+        var mh$ = __acrt_iob_func$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Ix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle fgetwc$MH() {
+        return RuntimeHelper.requireNonNull(constants$31.const$4,"fgetwc");
+    }
+    /**
+     * {@snippet :
+     * wint_t fgetwc(FILE* _Stream);
+     * }
+     */
+    public static short fgetwc(MemorySegment _Stream) {
+        var mh$ = fgetwc$MH();
+        try {
+            return (short)mh$.invokeExact(_Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _fgetwchar$MH() {
+        return RuntimeHelper.requireNonNull(constants$31.const$5,"_fgetwchar");
+    }
+    /**
+     * {@snippet :
+     * wint_t _fgetwchar();
+     * }
+     */
+    public static short _fgetwchar() {
+        var mh$ = _fgetwchar$MH();
+        try {
+            return (short)mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle fputwc$MH() {
+        return RuntimeHelper.requireNonNull(constants$32.const$0,"fputwc");
+    }
+    /**
+     * {@snippet :
+     * wint_t fputwc(wchar_t _Character, FILE* _Stream);
+     * }
+     */
+    public static short fputwc(short _Character, MemorySegment _Stream) {
+        var mh$ = fputwc$MH();
+        try {
+            return (short)mh$.invokeExact(_Character, _Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _fputwchar$MH() {
+        return RuntimeHelper.requireNonNull(constants$32.const$1,"_fputwchar");
+    }
+    /**
+     * {@snippet :
+     * wint_t _fputwchar(wchar_t _Character);
+     * }
+     */
+    public static short _fputwchar(short _Character) {
+        var mh$ = _fputwchar$MH();
+        try {
+            return (short)mh$.invokeExact(_Character);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle getwc$MH() {
+        return RuntimeHelper.requireNonNull(constants$32.const$2,"getwc");
+    }
+    /**
+     * {@snippet :
+     * wint_t getwc(FILE* _Stream);
+     * }
+     */
+    public static short getwc(MemorySegment _Stream) {
+        var mh$ = getwc$MH();
+        try {
+            return (short)mh$.invokeExact(_Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle getwchar$MH() {
+        return RuntimeHelper.requireNonNull(constants$32.const$3,"getwchar");
+    }
+    /**
+     * {@snippet :
+     * wint_t getwchar();
+     * }
+     */
+    public static short getwchar() {
+        var mh$ = getwchar$MH();
+        try {
+            return (short)mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle fgetws$MH() {
+        return RuntimeHelper.requireNonNull(constants$32.const$5,"fgetws");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* fgetws(wchar_t* _Buffer, int _BufferCount, FILE* _Stream);
+     * }
+     */
+    public static MemorySegment fgetws(MemorySegment _Buffer, int _BufferCount, MemorySegment _Stream) {
+        var mh$ = fgetws$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Buffer, _BufferCount, _Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle fputws$MH() {
+        return RuntimeHelper.requireNonNull(constants$33.const$0,"fputws");
+    }
+    /**
+     * {@snippet :
+     * int fputws(const wchar_t* _Buffer, FILE* _Stream);
+     * }
+     */
+    public static int fputws(MemorySegment _Buffer, MemorySegment _Stream) {
+        var mh$ = fputws$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _getws_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$33.const$2,"_getws_s");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _getws_s(wchar_t* _Buffer, size_t _BufferCount);
+     * }
+     */
+    public static MemorySegment _getws_s(MemorySegment _Buffer, long _BufferCount) {
+        var mh$ = _getws_s$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Buffer, _BufferCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle putwc$MH() {
+        return RuntimeHelper.requireNonNull(constants$33.const$3,"putwc");
+    }
+    /**
+     * {@snippet :
+     * wint_t putwc(wchar_t _Character, FILE* _Stream);
+     * }
+     */
+    public static short putwc(short _Character, MemorySegment _Stream) {
+        var mh$ = putwc$MH();
+        try {
+            return (short)mh$.invokeExact(_Character, _Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle putwchar$MH() {
+        return RuntimeHelper.requireNonNull(constants$33.const$4,"putwchar");
+    }
+    /**
+     * {@snippet :
+     * wint_t putwchar(wchar_t _Character);
+     * }
+     */
+    public static short putwchar(short _Character) {
+        var mh$ = putwchar$MH();
+        try {
+            return (short)mh$.invokeExact(_Character);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _putws$MH() {
+        return RuntimeHelper.requireNonNull(constants$33.const$5,"_putws");
+    }
+    /**
+     * {@snippet :
+     * int _putws(const wchar_t* _Buffer);
+     * }
+     */
+    public static int _putws(MemorySegment _Buffer) {
+        var mh$ = _putws$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle ungetwc$MH() {
+        return RuntimeHelper.requireNonNull(constants$34.const$0,"ungetwc");
+    }
+    /**
+     * {@snippet :
+     * wint_t ungetwc(wint_t _Character, FILE* _Stream);
+     * }
+     */
+    public static short ungetwc(short _Character, MemorySegment _Stream) {
+        var mh$ = ungetwc$MH();
+        try {
+            return (short)mh$.invokeExact(_Character, _Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfdopen$MH() {
+        return RuntimeHelper.requireNonNull(constants$34.const$2,"_wfdopen");
+    }
+    /**
+     * {@snippet :
+     * FILE* _wfdopen(int _FileHandle, const wchar_t* _Mode);
+     * }
+     */
+    public static MemorySegment _wfdopen(int _FileHandle, MemorySegment _Mode) {
+        var mh$ = _wfdopen$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_FileHandle, _Mode);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfopen$MH() {
+        return RuntimeHelper.requireNonNull(constants$34.const$3,"_wfopen");
+    }
+    /**
+     * {@snippet :
+     * FILE* _wfopen(const wchar_t* _FileName, const wchar_t* _Mode);
+     * }
+     */
+    public static MemorySegment _wfopen(MemorySegment _FileName, MemorySegment _Mode) {
+        var mh$ = _wfopen$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_FileName, _Mode);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfopen_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$34.const$5,"_wfopen_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wfopen_s(FILE** _Stream, const wchar_t* _FileName, const wchar_t* _Mode);
+     * }
+     */
+    public static int _wfopen_s(MemorySegment _Stream, MemorySegment _FileName, MemorySegment _Mode) {
+        var mh$ = _wfopen_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Stream, _FileName, _Mode);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfreopen$MH() {
+        return RuntimeHelper.requireNonNull(constants$35.const$1,"_wfreopen");
+    }
+    /**
+     * {@snippet :
+     * FILE* _wfreopen(const wchar_t* _FileName, const wchar_t* _Mode, FILE* _OldStream);
+     * }
+     */
+    public static MemorySegment _wfreopen(MemorySegment _FileName, MemorySegment _Mode, MemorySegment _OldStream) {
+        var mh$ = _wfreopen$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_FileName, _Mode, _OldStream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfreopen_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$35.const$3,"_wfreopen_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wfreopen_s(FILE** _Stream, const wchar_t* _FileName, const wchar_t* _Mode, FILE* _OldStream);
+     * }
+     */
+    public static int _wfreopen_s(MemorySegment _Stream, MemorySegment _FileName, MemorySegment _Mode, MemorySegment _OldStream) {
+        var mh$ = _wfreopen_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Stream, _FileName, _Mode, _OldStream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfsopen$MH() {
+        return RuntimeHelper.requireNonNull(constants$35.const$5,"_wfsopen");
+    }
+    /**
+     * {@snippet :
+     * FILE* _wfsopen(const wchar_t* _FileName, const wchar_t* _Mode, int _ShFlag);
+     * }
+     */
+    public static MemorySegment _wfsopen(MemorySegment _FileName, MemorySegment _Mode, int _ShFlag) {
+        var mh$ = _wfsopen$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_FileName, _Mode, _ShFlag);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wperror$MH() {
+        return RuntimeHelper.requireNonNull(constants$36.const$0,"_wperror");
+    }
+    /**
+     * {@snippet :
+     * void _wperror(const wchar_t* _ErrorMessage);
+     * }
+     */
+    public static void _wperror(MemorySegment _ErrorMessage) {
+        var mh$ = _wperror$MH();
+        try {
+            mh$.invokeExact(_ErrorMessage);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wpopen$MH() {
+        return RuntimeHelper.requireNonNull(constants$36.const$1,"_wpopen");
+    }
+    /**
+     * {@snippet :
+     * FILE* _wpopen(const wchar_t* _Command, const wchar_t* _Mode);
+     * }
+     */
+    public static MemorySegment _wpopen(MemorySegment _Command, MemorySegment _Mode) {
+        var mh$ = _wpopen$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Command, _Mode);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wremove$MH() {
+        return RuntimeHelper.requireNonNull(constants$36.const$2,"_wremove");
+    }
+    /**
+     * {@snippet :
+     * int _wremove(const wchar_t* _FileName);
+     * }
+     */
+    public static int _wremove(MemorySegment _FileName) {
+        var mh$ = _wremove$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtempnam$MH() {
+        return RuntimeHelper.requireNonNull(constants$36.const$3,"_wtempnam");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wtempnam(const wchar_t* _Directory, const wchar_t* _FilePrefix);
+     * }
+     */
+    public static MemorySegment _wtempnam(MemorySegment _Directory, MemorySegment _FilePrefix) {
+        var mh$ = _wtempnam$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Directory, _FilePrefix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtmpnam_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$36.const$4,"_wtmpnam_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wtmpnam_s(wchar_t* _Buffer, size_t _BufferCount);
+     * }
+     */
+    public static int _wtmpnam_s(MemorySegment _Buffer, long _BufferCount) {
+        var mh$ = _wtmpnam_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _BufferCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtmpnam$MH() {
+        return RuntimeHelper.requireNonNull(constants$36.const$5,"_wtmpnam");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wtmpnam(wchar_t* _Buffer);
+     * }
+     */
+    public static MemorySegment _wtmpnam(MemorySegment _Buffer) {
+        var mh$ = _wtmpnam$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Buffer);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _fgetwc_nolock$MH() {
+        return RuntimeHelper.requireNonNull(constants$37.const$0,"_fgetwc_nolock");
+    }
+    /**
+     * {@snippet :
+     * wint_t _fgetwc_nolock(FILE* _Stream);
+     * }
+     */
+    public static short _fgetwc_nolock(MemorySegment _Stream) {
+        var mh$ = _fgetwc_nolock$MH();
+        try {
+            return (short)mh$.invokeExact(_Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _fputwc_nolock$MH() {
+        return RuntimeHelper.requireNonNull(constants$37.const$1,"_fputwc_nolock");
+    }
+    /**
+     * {@snippet :
+     * wint_t _fputwc_nolock(wchar_t _Character, FILE* _Stream);
+     * }
+     */
+    public static short _fputwc_nolock(short _Character, MemorySegment _Stream) {
+        var mh$ = _fputwc_nolock$MH();
+        try {
+            return (short)mh$.invokeExact(_Character, _Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _getwc_nolock$MH() {
+        return RuntimeHelper.requireNonNull(constants$37.const$2,"_getwc_nolock");
+    }
+    /**
+     * {@snippet :
+     * wint_t _getwc_nolock(FILE* _Stream);
+     * }
+     */
+    public static short _getwc_nolock(MemorySegment _Stream) {
+        var mh$ = _getwc_nolock$MH();
+        try {
+            return (short)mh$.invokeExact(_Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _putwc_nolock$MH() {
+        return RuntimeHelper.requireNonNull(constants$37.const$3,"_putwc_nolock");
+    }
+    /**
+     * {@snippet :
+     * wint_t _putwc_nolock(wchar_t _Character, FILE* _Stream);
+     * }
+     */
+    public static short _putwc_nolock(short _Character, MemorySegment _Stream) {
+        var mh$ = _putwc_nolock$MH();
+        try {
+            return (short)mh$.invokeExact(_Character, _Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _ungetwc_nolock$MH() {
+        return RuntimeHelper.requireNonNull(constants$37.const$4,"_ungetwc_nolock");
+    }
+    /**
+     * {@snippet :
+     * wint_t _ungetwc_nolock(wint_t _Character, FILE* _Stream);
+     * }
+     */
+    public static short _ungetwc_nolock(short _Character, MemorySegment _Stream) {
+        var mh$ = _ungetwc_nolock$MH();
+        try {
+            return (short)mh$.invokeExact(_Character, _Stream);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __stdio_common_vfwprintf$MH() {
+        return RuntimeHelper.requireNonNull(constants$37.const$6,"__stdio_common_vfwprintf");
+    }
+    /**
+     * {@snippet :
+     * int __stdio_common_vfwprintf(unsigned long long _Options, FILE* _Stream, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __stdio_common_vfwprintf(long _Options, MemorySegment _Stream, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __stdio_common_vfwprintf$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Stream, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __stdio_common_vfwprintf_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$38.const$0,"__stdio_common_vfwprintf_s");
+    }
+    /**
+     * {@snippet :
+     * int __stdio_common_vfwprintf_s(unsigned long long _Options, FILE* _Stream, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __stdio_common_vfwprintf_s(long _Options, MemorySegment _Stream, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __stdio_common_vfwprintf_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Stream, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __stdio_common_vfwprintf_p$MH() {
+        return RuntimeHelper.requireNonNull(constants$38.const$1,"__stdio_common_vfwprintf_p");
+    }
+    /**
+     * {@snippet :
+     * int __stdio_common_vfwprintf_p(unsigned long long _Options, FILE* _Stream, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __stdio_common_vfwprintf_p(long _Options, MemorySegment _Stream, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __stdio_common_vfwprintf_p$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Stream, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __stdio_common_vfwscanf$MH() {
+        return RuntimeHelper.requireNonNull(constants$38.const$2,"__stdio_common_vfwscanf");
+    }
+    /**
+     * {@snippet :
+     * int __stdio_common_vfwscanf(unsigned long long _Options, FILE* _Stream, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __stdio_common_vfwscanf(long _Options, MemorySegment _Stream, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __stdio_common_vfwscanf$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Stream, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __stdio_common_vswprintf$MH() {
+        return RuntimeHelper.requireNonNull(constants$38.const$4,"__stdio_common_vswprintf");
+    }
+    /**
+     * {@snippet :
+     * int __stdio_common_vswprintf(unsigned long long _Options, wchar_t* _Buffer, size_t _BufferCount, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __stdio_common_vswprintf(long _Options, MemorySegment _Buffer, long _BufferCount, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __stdio_common_vswprintf$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Buffer, _BufferCount, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __stdio_common_vswprintf_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$38.const$5,"__stdio_common_vswprintf_s");
+    }
+    /**
+     * {@snippet :
+     * int __stdio_common_vswprintf_s(unsigned long long _Options, wchar_t* _Buffer, size_t _BufferCount, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __stdio_common_vswprintf_s(long _Options, MemorySegment _Buffer, long _BufferCount, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __stdio_common_vswprintf_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Buffer, _BufferCount, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __stdio_common_vsnwprintf_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$39.const$1,"__stdio_common_vsnwprintf_s");
+    }
+    /**
+     * {@snippet :
+     * int __stdio_common_vsnwprintf_s(unsigned long long _Options, wchar_t* _Buffer, size_t _BufferCount, size_t _MaxCount, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __stdio_common_vsnwprintf_s(long _Options, MemorySegment _Buffer, long _BufferCount, long _MaxCount, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __stdio_common_vsnwprintf_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Buffer, _BufferCount, _MaxCount, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __stdio_common_vswprintf_p$MH() {
+        return RuntimeHelper.requireNonNull(constants$39.const$2,"__stdio_common_vswprintf_p");
+    }
+    /**
+     * {@snippet :
+     * int __stdio_common_vswprintf_p(unsigned long long _Options, wchar_t* _Buffer, size_t _BufferCount, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __stdio_common_vswprintf_p(long _Options, MemorySegment _Buffer, long _BufferCount, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __stdio_common_vswprintf_p$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Buffer, _BufferCount, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __stdio_common_vswscanf$MH() {
+        return RuntimeHelper.requireNonNull(constants$39.const$3,"__stdio_common_vswscanf");
+    }
+    /**
+     * {@snippet :
+     * int __stdio_common_vswscanf(unsigned long long _Options, const wchar_t* _Buffer, size_t _BufferCount, const wchar_t* _Format, _locale_t _Locale, va_list _ArgList);
+     * }
+     */
+    public static int __stdio_common_vswscanf(long _Options, MemorySegment _Buffer, long _BufferCount, MemorySegment _Format, MemorySegment _Locale, MemorySegment _ArgList) {
+        var mh$ = __stdio_common_vswscanf$MH();
+        try {
+            return (int)mh$.invokeExact(_Options, _Buffer, _BufferCount, _Format, _Locale, _ArgList);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _itow_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$39.const$5,"_itow_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _itow_s(int _Value, wchar_t* _Buffer, size_t _BufferCount, int _Radix);
+     * }
+     */
+    public static int _itow_s(int _Value, MemorySegment _Buffer, long _BufferCount, int _Radix) {
+        var mh$ = _itow_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Value, _Buffer, _BufferCount, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _itow$MH() {
+        return RuntimeHelper.requireNonNull(constants$40.const$0,"_itow");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _itow(int _Value, wchar_t* _Buffer, int _Radix);
+     * }
+     */
+    public static MemorySegment _itow(int _Value, MemorySegment _Buffer, int _Radix) {
+        var mh$ = _itow$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Value, _Buffer, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _ltow_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$40.const$1,"_ltow_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _ltow_s(long _Value, wchar_t* _Buffer, size_t _BufferCount, int _Radix);
+     * }
+     */
+    public static int _ltow_s(int _Value, MemorySegment _Buffer, long _BufferCount, int _Radix) {
+        var mh$ = _ltow_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Value, _Buffer, _BufferCount, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _ltow$MH() {
+        return RuntimeHelper.requireNonNull(constants$40.const$2,"_ltow");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _ltow(long _Value, wchar_t* _Buffer, int _Radix);
+     * }
+     */
+    public static MemorySegment _ltow(int _Value, MemorySegment _Buffer, int _Radix) {
+        var mh$ = _ltow$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Value, _Buffer, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _ultow_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$40.const$3,"_ultow_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _ultow_s(unsigned long _Value, wchar_t* _Buffer, size_t _BufferCount, int _Radix);
+     * }
+     */
+    public static int _ultow_s(int _Value, MemorySegment _Buffer, long _BufferCount, int _Radix) {
+        var mh$ = _ultow_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Value, _Buffer, _BufferCount, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _ultow$MH() {
+        return RuntimeHelper.requireNonNull(constants$40.const$4,"_ultow");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _ultow(unsigned long _Value, wchar_t* _Buffer, int _Radix);
+     * }
+     */
+    public static MemorySegment _ultow(int _Value, MemorySegment _Buffer, int _Radix) {
+        var mh$ = _ultow$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Value, _Buffer, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcstod$MH() {
+        return RuntimeHelper.requireNonNull(constants$40.const$6,"wcstod");
+    }
+    /**
+     * {@snippet :
+     * double wcstod(const wchar_t* _String, wchar_t** _EndPtr);
+     * }
+     */
+    public static double wcstod(MemorySegment _String, MemorySegment _EndPtr) {
+        var mh$ = wcstod$MH();
+        try {
+            return (double)mh$.invokeExact(_String, _EndPtr);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcstod_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$41.const$1,"_wcstod_l");
+    }
+    /**
+     * {@snippet :
+     * double _wcstod_l(const wchar_t* _String, wchar_t** _EndPtr, _locale_t _Locale);
+     * }
+     */
+    public static double _wcstod_l(MemorySegment _String, MemorySegment _EndPtr, MemorySegment _Locale) {
+        var mh$ = _wcstod_l$MH();
+        try {
+            return (double)mh$.invokeExact(_String, _EndPtr, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcstol$MH() {
+        return RuntimeHelper.requireNonNull(constants$41.const$3,"wcstol");
+    }
+    /**
+     * {@snippet :
+     * long wcstol(const wchar_t* _String, wchar_t** _EndPtr, int _Radix);
+     * }
+     */
+    public static int wcstol(MemorySegment _String, MemorySegment _EndPtr, int _Radix) {
+        var mh$ = wcstol$MH();
+        try {
+            return (int)mh$.invokeExact(_String, _EndPtr, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcstol_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$41.const$5,"_wcstol_l");
+    }
+    /**
+     * {@snippet :
+     * long _wcstol_l(const wchar_t* _String, wchar_t** _EndPtr, int _Radix, _locale_t _Locale);
+     * }
+     */
+    public static int _wcstol_l(MemorySegment _String, MemorySegment _EndPtr, int _Radix, MemorySegment _Locale) {
+        var mh$ = _wcstol_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String, _EndPtr, _Radix, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcstoll$MH() {
+        return RuntimeHelper.requireNonNull(constants$42.const$1,"wcstoll");
+    }
+    /**
+     * {@snippet :
+     * long long wcstoll(const wchar_t* _String, wchar_t** _EndPtr, int _Radix);
+     * }
+     */
+    public static long wcstoll(MemorySegment _String, MemorySegment _EndPtr, int _Radix) {
+        var mh$ = wcstoll$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _EndPtr, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcstoll_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$42.const$3,"_wcstoll_l");
+    }
+    /**
+     * {@snippet :
+     * long long _wcstoll_l(const wchar_t* _String, wchar_t** _EndPtr, int _Radix, _locale_t _Locale);
+     * }
+     */
+    public static long _wcstoll_l(MemorySegment _String, MemorySegment _EndPtr, int _Radix, MemorySegment _Locale) {
+        var mh$ = _wcstoll_l$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _EndPtr, _Radix, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcstoul$MH() {
+        return RuntimeHelper.requireNonNull(constants$42.const$4,"wcstoul");
+    }
+    /**
+     * {@snippet :
+     * unsigned long wcstoul(const wchar_t* _String, wchar_t** _EndPtr, int _Radix);
+     * }
+     */
+    public static int wcstoul(MemorySegment _String, MemorySegment _EndPtr, int _Radix) {
+        var mh$ = wcstoul$MH();
+        try {
+            return (int)mh$.invokeExact(_String, _EndPtr, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcstoul_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$42.const$5,"_wcstoul_l");
+    }
+    /**
+     * {@snippet :
+     * unsigned long _wcstoul_l(const wchar_t* _String, wchar_t** _EndPtr, int _Radix, _locale_t _Locale);
+     * }
+     */
+    public static int _wcstoul_l(MemorySegment _String, MemorySegment _EndPtr, int _Radix, MemorySegment _Locale) {
+        var mh$ = _wcstoul_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String, _EndPtr, _Radix, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcstoull$MH() {
+        return RuntimeHelper.requireNonNull(constants$43.const$0,"wcstoull");
+    }
+    /**
+     * {@snippet :
+     * unsigned long long wcstoull(const wchar_t* _String, wchar_t** _EndPtr, int _Radix);
+     * }
+     */
+    public static long wcstoull(MemorySegment _String, MemorySegment _EndPtr, int _Radix) {
+        var mh$ = wcstoull$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _EndPtr, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcstoull_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$43.const$1,"_wcstoull_l");
+    }
+    /**
+     * {@snippet :
+     * unsigned long long _wcstoull_l(const wchar_t* _String, wchar_t** _EndPtr, int _Radix, _locale_t _Locale);
+     * }
+     */
+    public static long _wcstoull_l(MemorySegment _String, MemorySegment _EndPtr, int _Radix, MemorySegment _Locale) {
+        var mh$ = _wcstoull_l$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _EndPtr, _Radix, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcstold$MH() {
+        return RuntimeHelper.requireNonNull(constants$43.const$2,"wcstold");
+    }
+    /**
+     * {@snippet :
+     * long double wcstold(const wchar_t* _String, wchar_t** _EndPtr);
+     * }
+     */
+    public static double wcstold(MemorySegment _String, MemorySegment _EndPtr) {
+        var mh$ = wcstold$MH();
+        try {
+            return (double)mh$.invokeExact(_String, _EndPtr);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcstold_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$43.const$3,"_wcstold_l");
+    }
+    /**
+     * {@snippet :
+     * long double _wcstold_l(const wchar_t* _String, wchar_t** _EndPtr, _locale_t _Locale);
+     * }
+     */
+    public static double _wcstold_l(MemorySegment _String, MemorySegment _EndPtr, MemorySegment _Locale) {
+        var mh$ = _wcstold_l$MH();
+        try {
+            return (double)mh$.invokeExact(_String, _EndPtr, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcstof$MH() {
+        return RuntimeHelper.requireNonNull(constants$43.const$5,"wcstof");
+    }
+    /**
+     * {@snippet :
+     * float wcstof(const wchar_t* _String, wchar_t** _EndPtr);
+     * }
+     */
+    public static float wcstof(MemorySegment _String, MemorySegment _EndPtr) {
+        var mh$ = wcstof$MH();
+        try {
+            return (float)mh$.invokeExact(_String, _EndPtr);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcstof_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$44.const$1,"_wcstof_l");
+    }
+    /**
+     * {@snippet :
+     * float _wcstof_l(const wchar_t* _String, wchar_t** _EndPtr, _locale_t _Locale);
+     * }
+     */
+    public static float _wcstof_l(MemorySegment _String, MemorySegment _EndPtr, MemorySegment _Locale) {
+        var mh$ = _wcstof_l$MH();
+        try {
+            return (float)mh$.invokeExact(_String, _EndPtr, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtof$MH() {
+        return RuntimeHelper.requireNonNull(constants$44.const$3,"_wtof");
+    }
+    /**
+     * {@snippet :
+     * double _wtof(const wchar_t* _String);
+     * }
+     */
+    public static double _wtof(MemorySegment _String) {
+        var mh$ = _wtof$MH();
+        try {
+            return (double)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtof_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$44.const$4,"_wtof_l");
+    }
+    /**
+     * {@snippet :
+     * double _wtof_l(const wchar_t* _String, _locale_t _Locale);
+     * }
+     */
+    public static double _wtof_l(MemorySegment _String, MemorySegment _Locale) {
+        var mh$ = _wtof_l$MH();
+        try {
+            return (double)mh$.invokeExact(_String, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtoi$MH() {
+        return RuntimeHelper.requireNonNull(constants$44.const$5,"_wtoi");
+    }
+    /**
+     * {@snippet :
+     * int _wtoi(const wchar_t* _String);
+     * }
+     */
+    public static int _wtoi(MemorySegment _String) {
+        var mh$ = _wtoi$MH();
+        try {
+            return (int)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtoi_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$45.const$0,"_wtoi_l");
+    }
+    /**
+     * {@snippet :
+     * int _wtoi_l(const wchar_t* _String, _locale_t _Locale);
+     * }
+     */
+    public static int _wtoi_l(MemorySegment _String, MemorySegment _Locale) {
+        var mh$ = _wtoi_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtol$MH() {
+        return RuntimeHelper.requireNonNull(constants$45.const$1,"_wtol");
+    }
+    /**
+     * {@snippet :
+     * long _wtol(const wchar_t* _String);
+     * }
+     */
+    public static int _wtol(MemorySegment _String) {
+        var mh$ = _wtol$MH();
+        try {
+            return (int)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtol_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$45.const$2,"_wtol_l");
+    }
+    /**
+     * {@snippet :
+     * long _wtol_l(const wchar_t* _String, _locale_t _Locale);
+     * }
+     */
+    public static int _wtol_l(MemorySegment _String, MemorySegment _Locale) {
+        var mh$ = _wtol_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtoll$MH() {
+        return RuntimeHelper.requireNonNull(constants$45.const$4,"_wtoll");
+    }
+    /**
+     * {@snippet :
+     * long long _wtoll(const wchar_t* _String);
+     * }
+     */
+    public static long _wtoll(MemorySegment _String) {
+        var mh$ = _wtoll$MH();
+        try {
+            return (long)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtoll_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$45.const$5,"_wtoll_l");
+    }
+    /**
+     * {@snippet :
+     * long long _wtoll_l(const wchar_t* _String, _locale_t _Locale);
+     * }
+     */
+    public static long _wtoll_l(MemorySegment _String, MemorySegment _Locale) {
+        var mh$ = _wtoll_l$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _i64tow_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$46.const$1,"_i64tow_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _i64tow_s(long long _Value, wchar_t* _Buffer, size_t _BufferCount, int _Radix);
+     * }
+     */
+    public static int _i64tow_s(long _Value, MemorySegment _Buffer, long _BufferCount, int _Radix) {
+        var mh$ = _i64tow_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Value, _Buffer, _BufferCount, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _i64tow$MH() {
+        return RuntimeHelper.requireNonNull(constants$46.const$3,"_i64tow");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _i64tow(long long _Value, wchar_t* _Buffer, int _Radix);
+     * }
+     */
+    public static MemorySegment _i64tow(long _Value, MemorySegment _Buffer, int _Radix) {
+        var mh$ = _i64tow$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Value, _Buffer, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _ui64tow_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$46.const$4,"_ui64tow_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _ui64tow_s(unsigned long long _Value, wchar_t* _Buffer, size_t _BufferCount, int _Radix);
+     * }
+     */
+    public static int _ui64tow_s(long _Value, MemorySegment _Buffer, long _BufferCount, int _Radix) {
+        var mh$ = _ui64tow_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Value, _Buffer, _BufferCount, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _ui64tow$MH() {
+        return RuntimeHelper.requireNonNull(constants$46.const$5,"_ui64tow");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _ui64tow(unsigned long long _Value, wchar_t* _Buffer, int _Radix);
+     * }
+     */
+    public static MemorySegment _ui64tow(long _Value, MemorySegment _Buffer, int _Radix) {
+        var mh$ = _ui64tow$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Value, _Buffer, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtoi64$MH() {
+        return RuntimeHelper.requireNonNull(constants$47.const$0,"_wtoi64");
+    }
+    /**
+     * {@snippet :
+     * long long _wtoi64(const wchar_t* _String);
+     * }
+     */
+    public static long _wtoi64(MemorySegment _String) {
+        var mh$ = _wtoi64$MH();
+        try {
+            return (long)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wtoi64_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$47.const$1,"_wtoi64_l");
+    }
+    /**
+     * {@snippet :
+     * long long _wtoi64_l(const wchar_t* _String, _locale_t _Locale);
+     * }
+     */
+    public static long _wtoi64_l(MemorySegment _String, MemorySegment _Locale) {
+        var mh$ = _wtoi64_l$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcstoi64$MH() {
+        return RuntimeHelper.requireNonNull(constants$47.const$2,"_wcstoi64");
+    }
+    /**
+     * {@snippet :
+     * long long _wcstoi64(const wchar_t* _String, wchar_t** _EndPtr, int _Radix);
+     * }
+     */
+    public static long _wcstoi64(MemorySegment _String, MemorySegment _EndPtr, int _Radix) {
+        var mh$ = _wcstoi64$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _EndPtr, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcstoi64_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$47.const$3,"_wcstoi64_l");
+    }
+    /**
+     * {@snippet :
+     * long long _wcstoi64_l(const wchar_t* _String, wchar_t** _EndPtr, int _Radix, _locale_t _Locale);
+     * }
+     */
+    public static long _wcstoi64_l(MemorySegment _String, MemorySegment _EndPtr, int _Radix, MemorySegment _Locale) {
+        var mh$ = _wcstoi64_l$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _EndPtr, _Radix, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcstoui64$MH() {
+        return RuntimeHelper.requireNonNull(constants$47.const$4,"_wcstoui64");
+    }
+    /**
+     * {@snippet :
+     * unsigned long long _wcstoui64(const wchar_t* _String, wchar_t** _EndPtr, int _Radix);
+     * }
+     */
+    public static long _wcstoui64(MemorySegment _String, MemorySegment _EndPtr, int _Radix) {
+        var mh$ = _wcstoui64$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _EndPtr, _Radix);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcstoui64_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$47.const$5,"_wcstoui64_l");
+    }
+    /**
+     * {@snippet :
+     * unsigned long long _wcstoui64_l(const wchar_t* _String, wchar_t** _EndPtr, int _Radix, _locale_t _Locale);
+     * }
+     */
+    public static long _wcstoui64_l(MemorySegment _String, MemorySegment _EndPtr, int _Radix, MemorySegment _Locale) {
+        var mh$ = _wcstoui64_l$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _EndPtr, _Radix, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wfullpath$MH() {
+        return RuntimeHelper.requireNonNull(constants$48.const$0,"_wfullpath");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wfullpath(wchar_t* _Buffer, const wchar_t* _Path, size_t _BufferCount);
+     * }
+     */
+    public static MemorySegment _wfullpath(MemorySegment _Buffer, MemorySegment _Path, long _BufferCount) {
+        var mh$ = _wfullpath$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Buffer, _Path, _BufferCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wmakepath_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$48.const$2,"_wmakepath_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wmakepath_s(wchar_t* _Buffer, size_t _BufferCount, const wchar_t* _Drive, const wchar_t* _Dir, const wchar_t* _Filename, const wchar_t* _Ext);
+     * }
+     */
+    public static int _wmakepath_s(MemorySegment _Buffer, long _BufferCount, MemorySegment _Drive, MemorySegment _Dir, MemorySegment _Filename, MemorySegment _Ext) {
+        var mh$ = _wmakepath_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _BufferCount, _Drive, _Dir, _Filename, _Ext);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wmakepath$MH() {
+        return RuntimeHelper.requireNonNull(constants$48.const$4,"_wmakepath");
+    }
+    /**
+     * {@snippet :
+     * void _wmakepath(wchar_t* _Buffer, const wchar_t* _Drive, const wchar_t* _Dir, const wchar_t* _Filename, const wchar_t* _Ext);
+     * }
+     */
+    public static void _wmakepath(MemorySegment _Buffer, MemorySegment _Drive, MemorySegment _Dir, MemorySegment _Filename, MemorySegment _Ext) {
+        var mh$ = _wmakepath$MH();
+        try {
+            mh$.invokeExact(_Buffer, _Drive, _Dir, _Filename, _Ext);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wsplitpath$MH() {
+        return RuntimeHelper.requireNonNull(constants$48.const$5,"_wsplitpath");
+    }
+    /**
+     * {@snippet :
+     * void _wsplitpath(const wchar_t* _FullPath, wchar_t* _Drive, wchar_t* _Dir, wchar_t* _Filename, wchar_t* _Ext);
+     * }
+     */
+    public static void _wsplitpath(MemorySegment _FullPath, MemorySegment _Drive, MemorySegment _Dir, MemorySegment _Filename, MemorySegment _Ext) {
+        var mh$ = _wsplitpath$MH();
+        try {
+            mh$.invokeExact(_FullPath, _Drive, _Dir, _Filename, _Ext);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wsplitpath_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$49.const$1,"_wsplitpath_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wsplitpath_s(const wchar_t* _FullPath, wchar_t* _Drive, size_t _DriveCount, wchar_t* _Dir, size_t _DirCount, wchar_t* _Filename, size_t _FilenameCount, wchar_t* _Ext, size_t _ExtCount);
+     * }
+     */
+    public static int _wsplitpath_s(MemorySegment _FullPath, MemorySegment _Drive, long _DriveCount, MemorySegment _Dir, long _DirCount, MemorySegment _Filename, long _FilenameCount, MemorySegment _Ext, long _ExtCount) {
+        var mh$ = _wsplitpath_s$MH();
+        try {
+            return (int)mh$.invokeExact(_FullPath, _Drive, _DriveCount, _Dir, _DirCount, _Filename, _FilenameCount, _Ext, _ExtCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wdupenv_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$49.const$2,"_wdupenv_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wdupenv_s(wchar_t** _Buffer, size_t* _BufferCount, const wchar_t* _VarName);
+     * }
+     */
+    public static int _wdupenv_s(MemorySegment _Buffer, MemorySegment _BufferCount, MemorySegment _VarName) {
+        var mh$ = _wdupenv_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _BufferCount, _VarName);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wgetenv$MH() {
+        return RuntimeHelper.requireNonNull(constants$49.const$3,"_wgetenv");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wgetenv(const wchar_t* _VarName);
+     * }
+     */
+    public static MemorySegment _wgetenv(MemorySegment _VarName) {
+        var mh$ = _wgetenv$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_VarName);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wgetenv_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$49.const$5,"_wgetenv_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wgetenv_s(size_t* _RequiredCount, wchar_t* _Buffer, size_t _BufferCount, const wchar_t* _VarName);
+     * }
+     */
+    public static int _wgetenv_s(MemorySegment _RequiredCount, MemorySegment _Buffer, long _BufferCount, MemorySegment _VarName) {
+        var mh$ = _wgetenv_s$MH();
+        try {
+            return (int)mh$.invokeExact(_RequiredCount, _Buffer, _BufferCount, _VarName);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wputenv$MH() {
+        return RuntimeHelper.requireNonNull(constants$50.const$0,"_wputenv");
+    }
+    /**
+     * {@snippet :
+     * int _wputenv(const wchar_t* _EnvString);
+     * }
+     */
+    public static int _wputenv(MemorySegment _EnvString) {
+        var mh$ = _wputenv$MH();
+        try {
+            return (int)mh$.invokeExact(_EnvString);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wputenv_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$50.const$1,"_wputenv_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wputenv_s(const wchar_t* _Name, const wchar_t* _Value);
+     * }
+     */
+    public static int _wputenv_s(MemorySegment _Name, MemorySegment _Value) {
+        var mh$ = _wputenv_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Name, _Value);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wsearchenv_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$50.const$3,"_wsearchenv_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wsearchenv_s(const wchar_t* _Filename, const wchar_t* _VarName, wchar_t* _Buffer, size_t _BufferCount);
+     * }
+     */
+    public static int _wsearchenv_s(MemorySegment _Filename, MemorySegment _VarName, MemorySegment _Buffer, long _BufferCount) {
+        var mh$ = _wsearchenv_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Filename, _VarName, _Buffer, _BufferCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wsearchenv$MH() {
+        return RuntimeHelper.requireNonNull(constants$50.const$5,"_wsearchenv");
+    }
+    /**
+     * {@snippet :
+     * void _wsearchenv(const wchar_t* _Filename, const wchar_t* _VarName, wchar_t* _ResultPath);
+     * }
+     */
+    public static void _wsearchenv(MemorySegment _Filename, MemorySegment _VarName, MemorySegment _ResultPath) {
+        var mh$ = _wsearchenv$MH();
+        try {
+            mh$.invokeExact(_Filename, _VarName, _ResultPath);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcscat_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$51.const$0,"wcscat_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t wcscat_s(wchar_t* _Destination, rsize_t _SizeInWords, const wchar_t* _Source);
+     * }
+     */
+    public static int wcscat_s(MemorySegment _Destination, long _SizeInWords, MemorySegment _Source) {
+        var mh$ = wcscat_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Destination, _SizeInWords, _Source);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcscpy_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$51.const$1,"wcscpy_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t wcscpy_s(wchar_t* _Destination, rsize_t _SizeInWords, const wchar_t* _Source);
+     * }
+     */
+    public static int wcscpy_s(MemorySegment _Destination, long _SizeInWords, MemorySegment _Source) {
+        var mh$ = wcscpy_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Destination, _SizeInWords, _Source);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsncat_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$51.const$3,"wcsncat_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t wcsncat_s(wchar_t* _Destination, rsize_t _SizeInWords, const wchar_t* _Source, rsize_t _MaxCount);
+     * }
+     */
+    public static int wcsncat_s(MemorySegment _Destination, long _SizeInWords, MemorySegment _Source, long _MaxCount) {
+        var mh$ = wcsncat_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Destination, _SizeInWords, _Source, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsncpy_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$51.const$4,"wcsncpy_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t wcsncpy_s(wchar_t* _Destination, rsize_t _SizeInWords, const wchar_t* _Source, rsize_t _MaxCount);
+     * }
+     */
+    public static int wcsncpy_s(MemorySegment _Destination, long _SizeInWords, MemorySegment _Source, long _MaxCount) {
+        var mh$ = wcsncpy_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Destination, _SizeInWords, _Source, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcstok_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$51.const$5,"wcstok_s");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcstok_s(wchar_t* _String, const wchar_t* _Delimiter, wchar_t** _Context);
+     * }
+     */
+    public static MemorySegment wcstok_s(MemorySegment _String, MemorySegment _Delimiter, MemorySegment _Context) {
+        var mh$ = wcstok_s$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String, _Delimiter, _Context);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsdup$MH() {
+        return RuntimeHelper.requireNonNull(constants$52.const$0,"_wcsdup");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wcsdup(const wchar_t* _String);
+     * }
+     */
+    public static MemorySegment _wcsdup(MemorySegment _String) {
+        var mh$ = _wcsdup$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcscat$MH() {
+        return RuntimeHelper.requireNonNull(constants$52.const$1,"wcscat");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcscat(wchar_t* _Destination, const wchar_t* _Source);
+     * }
+     */
+    public static MemorySegment wcscat(MemorySegment _Destination, MemorySegment _Source) {
+        var mh$ = wcscat$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Destination, _Source);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcscmp$MH() {
+        return RuntimeHelper.requireNonNull(constants$52.const$2,"wcscmp");
+    }
+    /**
+     * {@snippet :
+     * int wcscmp(const wchar_t* _String1, const wchar_t* _String2);
+     * }
+     */
+    public static int wcscmp(MemorySegment _String1, MemorySegment _String2) {
+        var mh$ = wcscmp$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcscpy$MH() {
+        return RuntimeHelper.requireNonNull(constants$52.const$3,"wcscpy");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcscpy(wchar_t* _Destination, const wchar_t* _Source);
+     * }
+     */
+    public static MemorySegment wcscpy(MemorySegment _Destination, MemorySegment _Source) {
+        var mh$ = wcscpy$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Destination, _Source);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcscspn$MH() {
+        return RuntimeHelper.requireNonNull(constants$52.const$4,"wcscspn");
+    }
+    /**
+     * {@snippet :
+     * size_t wcscspn(const wchar_t* _String, const wchar_t* _Control);
+     * }
+     */
+    public static long wcscspn(MemorySegment _String, MemorySegment _Control) {
+        var mh$ = wcscspn$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _Control);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcslen$MH() {
+        return RuntimeHelper.requireNonNull(constants$52.const$5,"wcslen");
+    }
+    /**
+     * {@snippet :
+     * unsigned long long wcslen(const wchar_t* _String);
+     * }
+     */
+    public static long wcslen(MemorySegment _String) {
+        var mh$ = wcslen$MH();
+        try {
+            return (long)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsnlen$MH() {
+        return RuntimeHelper.requireNonNull(constants$53.const$1,"wcsnlen");
+    }
+    /**
+     * {@snippet :
+     * size_t wcsnlen(const wchar_t* _Source, size_t _MaxCount);
+     * }
+     */
+    public static long wcsnlen(MemorySegment _Source, long _MaxCount) {
+        var mh$ = wcsnlen$MH();
+        try {
+            return (long)mh$.invokeExact(_Source, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsncat$MH() {
+        return RuntimeHelper.requireNonNull(constants$53.const$2,"wcsncat");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcsncat(wchar_t* _Destination, const wchar_t* _Source, size_t _Count);
+     * }
+     */
+    public static MemorySegment wcsncat(MemorySegment _Destination, MemorySegment _Source, long _Count) {
+        var mh$ = wcsncat$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Destination, _Source, _Count);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsncmp$MH() {
+        return RuntimeHelper.requireNonNull(constants$53.const$3,"wcsncmp");
+    }
+    /**
+     * {@snippet :
+     * int wcsncmp(const wchar_t* _String1, const wchar_t* _String2, size_t _MaxCount);
+     * }
+     */
+    public static int wcsncmp(MemorySegment _String1, MemorySegment _String2, long _MaxCount) {
+        var mh$ = wcsncmp$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsncpy$MH() {
+        return RuntimeHelper.requireNonNull(constants$53.const$4,"wcsncpy");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcsncpy(wchar_t* _Destination, const wchar_t* _Source, size_t _Count);
+     * }
+     */
+    public static MemorySegment wcsncpy(MemorySegment _Destination, MemorySegment _Source, long _Count) {
+        var mh$ = wcsncpy$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Destination, _Source, _Count);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcspbrk$MH() {
+        return RuntimeHelper.requireNonNull(constants$53.const$5,"wcspbrk");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcspbrk(const wchar_t* _String, const wchar_t* _Control);
+     * }
+     */
+    public static MemorySegment wcspbrk(MemorySegment _String, MemorySegment _Control) {
+        var mh$ = wcspbrk$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String, _Control);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsspn$MH() {
+        return RuntimeHelper.requireNonNull(constants$54.const$0,"wcsspn");
+    }
+    /**
+     * {@snippet :
+     * size_t wcsspn(const wchar_t* _String, const wchar_t* _Control);
+     * }
+     */
+    public static long wcsspn(MemorySegment _String, MemorySegment _Control) {
+        var mh$ = wcsspn$MH();
+        try {
+            return (long)mh$.invokeExact(_String, _Control);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcstok$MH() {
+        return RuntimeHelper.requireNonNull(constants$54.const$1,"wcstok");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcstok(wchar_t* _String, const wchar_t* _Delimiter, wchar_t** _Context);
+     * }
+     */
+    public static MemorySegment wcstok(MemorySegment _String, MemorySegment _Delimiter, MemorySegment _Context) {
+        var mh$ = wcstok$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String, _Delimiter, _Context);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcserror$MH() {
+        return RuntimeHelper.requireNonNull(constants$54.const$2,"_wcserror");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wcserror(int _ErrorNumber);
+     * }
+     */
+    public static MemorySegment _wcserror(int _ErrorNumber) {
+        var mh$ = _wcserror$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_ErrorNumber);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcserror_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$54.const$4,"_wcserror_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wcserror_s(wchar_t* _Buffer, size_t _SizeInWords, int _ErrorNumber);
+     * }
+     */
+    public static int _wcserror_s(MemorySegment _Buffer, long _SizeInWords, int _ErrorNumber) {
+        var mh$ = _wcserror_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _SizeInWords, _ErrorNumber);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __wcserror$MH() {
+        return RuntimeHelper.requireNonNull(constants$54.const$5,"__wcserror");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* __wcserror(const wchar_t* _String);
+     * }
+     */
+    public static MemorySegment __wcserror(MemorySegment _String) {
+        var mh$ = __wcserror$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle __wcserror_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$55.const$0,"__wcserror_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t __wcserror_s(wchar_t* _Buffer, size_t _SizeInWords, const wchar_t* _ErrorMessage);
+     * }
+     */
+    public static int __wcserror_s(MemorySegment _Buffer, long _SizeInWords, MemorySegment _ErrorMessage) {
+        var mh$ = __wcserror_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _SizeInWords, _ErrorMessage);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsicmp$MH() {
+        return RuntimeHelper.requireNonNull(constants$55.const$1,"_wcsicmp");
+    }
+    /**
+     * {@snippet :
+     * int _wcsicmp(const wchar_t* _String1, const wchar_t* _String2);
+     * }
+     */
+    public static int _wcsicmp(MemorySegment _String1, MemorySegment _String2) {
+        var mh$ = _wcsicmp$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsicmp_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$55.const$2,"_wcsicmp_l");
+    }
+    /**
+     * {@snippet :
+     * int _wcsicmp_l(const wchar_t* _String1, const wchar_t* _String2, _locale_t _Locale);
+     * }
+     */
+    public static int _wcsicmp_l(MemorySegment _String1, MemorySegment _String2, MemorySegment _Locale) {
+        var mh$ = _wcsicmp_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsnicmp$MH() {
+        return RuntimeHelper.requireNonNull(constants$55.const$3,"_wcsnicmp");
+    }
+    /**
+     * {@snippet :
+     * int _wcsnicmp(const wchar_t* _String1, const wchar_t* _String2, size_t _MaxCount);
+     * }
+     */
+    public static int _wcsnicmp(MemorySegment _String1, MemorySegment _String2, long _MaxCount) {
+        var mh$ = _wcsnicmp$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsnicmp_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$55.const$4,"_wcsnicmp_l");
+    }
+    /**
+     * {@snippet :
+     * int _wcsnicmp_l(const wchar_t* _String1, const wchar_t* _String2, size_t _MaxCount, _locale_t _Locale);
+     * }
+     */
+    public static int _wcsnicmp_l(MemorySegment _String1, MemorySegment _String2, long _MaxCount, MemorySegment _Locale) {
+        var mh$ = _wcsnicmp_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2, _MaxCount, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsnset_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$55.const$6,"_wcsnset_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wcsnset_s(wchar_t* _Destination, size_t _SizeInWords, wchar_t _Value, size_t _MaxCount);
+     * }
+     */
+    public static int _wcsnset_s(MemorySegment _Destination, long _SizeInWords, short _Value, long _MaxCount) {
+        var mh$ = _wcsnset_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Destination, _SizeInWords, _Value, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsnset$MH() {
+        return RuntimeHelper.requireNonNull(constants$56.const$1,"_wcsnset");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wcsnset(wchar_t* _String, wchar_t _Value, size_t _MaxCount);
+     * }
+     */
+    public static MemorySegment _wcsnset(MemorySegment _String, short _Value, long _MaxCount) {
+        var mh$ = _wcsnset$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String, _Value, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsrev$MH() {
+        return RuntimeHelper.requireNonNull(constants$56.const$2,"_wcsrev");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wcsrev(wchar_t* _String);
+     * }
+     */
+    public static MemorySegment _wcsrev(MemorySegment _String) {
+        var mh$ = _wcsrev$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsset_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$56.const$4,"_wcsset_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wcsset_s(wchar_t* _Destination, size_t _SizeInWords, wchar_t _Value);
+     * }
+     */
+    public static int _wcsset_s(MemorySegment _Destination, long _SizeInWords, short _Value) {
+        var mh$ = _wcsset_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Destination, _SizeInWords, _Value);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsset$MH() {
+        return RuntimeHelper.requireNonNull(constants$56.const$5,"_wcsset");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wcsset(wchar_t* _String, wchar_t _Value);
+     * }
+     */
+    public static MemorySegment _wcsset(MemorySegment _String, short _Value) {
+        var mh$ = _wcsset$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String, _Value);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcslwr_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$57.const$0,"_wcslwr_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wcslwr_s(wchar_t* _String, size_t _SizeInWords);
+     * }
+     */
+    public static int _wcslwr_s(MemorySegment _String, long _SizeInWords) {
+        var mh$ = _wcslwr_s$MH();
+        try {
+            return (int)mh$.invokeExact(_String, _SizeInWords);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcslwr$MH() {
+        return RuntimeHelper.requireNonNull(constants$57.const$1,"_wcslwr");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wcslwr(wchar_t* _String);
+     * }
+     */
+    public static MemorySegment _wcslwr(MemorySegment _String) {
+        var mh$ = _wcslwr$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcslwr_s_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$57.const$2,"_wcslwr_s_l");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wcslwr_s_l(wchar_t* _String, size_t _SizeInWords, _locale_t _Locale);
+     * }
+     */
+    public static int _wcslwr_s_l(MemorySegment _String, long _SizeInWords, MemorySegment _Locale) {
+        var mh$ = _wcslwr_s_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String, _SizeInWords, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcslwr_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$57.const$3,"_wcslwr_l");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wcslwr_l(wchar_t* _String, _locale_t _Locale);
+     * }
+     */
+    public static MemorySegment _wcslwr_l(MemorySegment _String, MemorySegment _Locale) {
+        var mh$ = _wcslwr_l$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsupr_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$57.const$4,"_wcsupr_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wcsupr_s(wchar_t* _String, size_t _Size);
+     * }
+     */
+    public static int _wcsupr_s(MemorySegment _String, long _Size) {
+        var mh$ = _wcsupr_s$MH();
+        try {
+            return (int)mh$.invokeExact(_String, _Size);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsupr$MH() {
+        return RuntimeHelper.requireNonNull(constants$57.const$5,"_wcsupr");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wcsupr(wchar_t* _String);
+     * }
+     */
+    public static MemorySegment _wcsupr(MemorySegment _String) {
+        var mh$ = _wcsupr$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsupr_s_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$58.const$0,"_wcsupr_s_l");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wcsupr_s_l(wchar_t* _String, size_t _Size, _locale_t _Locale);
+     * }
+     */
+    public static int _wcsupr_s_l(MemorySegment _String, long _Size, MemorySegment _Locale) {
+        var mh$ = _wcsupr_s_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String, _Size, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsupr_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$58.const$1,"_wcsupr_l");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wcsupr_l(wchar_t* _String, _locale_t _Locale);
+     * }
+     */
+    public static MemorySegment _wcsupr_l(MemorySegment _String, MemorySegment _Locale) {
+        var mh$ = _wcsupr_l$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsxfrm$MH() {
+        return RuntimeHelper.requireNonNull(constants$58.const$3,"wcsxfrm");
+    }
+    /**
+     * {@snippet :
+     * size_t wcsxfrm(wchar_t* _Destination, const wchar_t* _Source, size_t _MaxCount);
+     * }
+     */
+    public static long wcsxfrm(MemorySegment _Destination, MemorySegment _Source, long _MaxCount) {
+        var mh$ = wcsxfrm$MH();
+        try {
+            return (long)mh$.invokeExact(_Destination, _Source, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsxfrm_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$58.const$5,"_wcsxfrm_l");
+    }
+    /**
+     * {@snippet :
+     * size_t _wcsxfrm_l(wchar_t* _Destination, const wchar_t* _Source, size_t _MaxCount, _locale_t _Locale);
+     * }
+     */
+    public static long _wcsxfrm_l(MemorySegment _Destination, MemorySegment _Source, long _MaxCount, MemorySegment _Locale) {
+        var mh$ = _wcsxfrm_l$MH();
+        try {
+            return (long)mh$.invokeExact(_Destination, _Source, _MaxCount, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcscoll$MH() {
+        return RuntimeHelper.requireNonNull(constants$59.const$0,"wcscoll");
+    }
+    /**
+     * {@snippet :
+     * int wcscoll(const wchar_t* _String1, const wchar_t* _String2);
+     * }
+     */
+    public static int wcscoll(MemorySegment _String1, MemorySegment _String2) {
+        var mh$ = wcscoll$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcscoll_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$59.const$1,"_wcscoll_l");
+    }
+    /**
+     * {@snippet :
+     * int _wcscoll_l(const wchar_t* _String1, const wchar_t* _String2, _locale_t _Locale);
+     * }
+     */
+    public static int _wcscoll_l(MemorySegment _String1, MemorySegment _String2, MemorySegment _Locale) {
+        var mh$ = _wcscoll_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsicoll$MH() {
+        return RuntimeHelper.requireNonNull(constants$59.const$2,"_wcsicoll");
+    }
+    /**
+     * {@snippet :
+     * int _wcsicoll(const wchar_t* _String1, const wchar_t* _String2);
+     * }
+     */
+    public static int _wcsicoll(MemorySegment _String1, MemorySegment _String2) {
+        var mh$ = _wcsicoll$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsicoll_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$59.const$3,"_wcsicoll_l");
+    }
+    /**
+     * {@snippet :
+     * int _wcsicoll_l(const wchar_t* _String1, const wchar_t* _String2, _locale_t _Locale);
+     * }
+     */
+    public static int _wcsicoll_l(MemorySegment _String1, MemorySegment _String2, MemorySegment _Locale) {
+        var mh$ = _wcsicoll_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsncoll$MH() {
+        return RuntimeHelper.requireNonNull(constants$59.const$4,"_wcsncoll");
+    }
+    /**
+     * {@snippet :
+     * int _wcsncoll(const wchar_t* _String1, const wchar_t* _String2, size_t _MaxCount);
+     * }
+     */
+    public static int _wcsncoll(MemorySegment _String1, MemorySegment _String2, long _MaxCount) {
+        var mh$ = _wcsncoll$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsncoll_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$59.const$5,"_wcsncoll_l");
+    }
+    /**
+     * {@snippet :
+     * int _wcsncoll_l(const wchar_t* _String1, const wchar_t* _String2, size_t _MaxCount, _locale_t _Locale);
+     * }
+     */
+    public static int _wcsncoll_l(MemorySegment _String1, MemorySegment _String2, long _MaxCount, MemorySegment _Locale) {
+        var mh$ = _wcsncoll_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2, _MaxCount, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsnicoll$MH() {
+        return RuntimeHelper.requireNonNull(constants$60.const$0,"_wcsnicoll");
+    }
+    /**
+     * {@snippet :
+     * int _wcsnicoll(const wchar_t* _String1, const wchar_t* _String2, size_t _MaxCount);
+     * }
+     */
+    public static int _wcsnicoll(MemorySegment _String1, MemorySegment _String2, long _MaxCount) {
+        var mh$ = _wcsnicoll$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsnicoll_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$60.const$1,"_wcsnicoll_l");
+    }
+    /**
+     * {@snippet :
+     * int _wcsnicoll_l(const wchar_t* _String1, const wchar_t* _String2, size_t _MaxCount, _locale_t _Locale);
+     * }
+     */
+    public static int _wcsnicoll_l(MemorySegment _String1, MemorySegment _String2, long _MaxCount, MemorySegment _Locale) {
+        var mh$ = _wcsnicoll_l$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2, _MaxCount, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsdup$MH() {
+        return RuntimeHelper.requireNonNull(constants$60.const$2,"wcsdup");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcsdup(const wchar_t* _String);
+     * }
+     */
+    public static MemorySegment wcsdup(MemorySegment _String) {
+        var mh$ = wcsdup$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsicmp$MH() {
+        return RuntimeHelper.requireNonNull(constants$60.const$3,"wcsicmp");
+    }
+    /**
+     * {@snippet :
+     * int wcsicmp(const wchar_t* _String1, const wchar_t* _String2);
+     * }
+     */
+    public static int wcsicmp(MemorySegment _String1, MemorySegment _String2) {
+        var mh$ = wcsicmp$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsnicmp$MH() {
+        return RuntimeHelper.requireNonNull(constants$60.const$4,"wcsnicmp");
+    }
+    /**
+     * {@snippet :
+     * int wcsnicmp(const wchar_t* _String1, const wchar_t* _String2, size_t _MaxCount);
+     * }
+     */
+    public static int wcsnicmp(MemorySegment _String1, MemorySegment _String2, long _MaxCount) {
+        var mh$ = wcsnicmp$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsnset$MH() {
+        return RuntimeHelper.requireNonNull(constants$60.const$5,"wcsnset");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcsnset(wchar_t* _String, wchar_t _Value, size_t _MaxCount);
+     * }
+     */
+    public static MemorySegment wcsnset(MemorySegment _String, short _Value, long _MaxCount) {
+        var mh$ = wcsnset$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String, _Value, _MaxCount);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsrev$MH() {
+        return RuntimeHelper.requireNonNull(constants$61.const$0,"wcsrev");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcsrev(wchar_t* _String);
+     * }
+     */
+    public static MemorySegment wcsrev(MemorySegment _String) {
+        var mh$ = wcsrev$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsset$MH() {
+        return RuntimeHelper.requireNonNull(constants$61.const$1,"wcsset");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcsset(wchar_t* _String, wchar_t _Value);
+     * }
+     */
+    public static MemorySegment wcsset(MemorySegment _String, short _Value) {
+        var mh$ = wcsset$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String, _Value);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcslwr$MH() {
+        return RuntimeHelper.requireNonNull(constants$61.const$2,"wcslwr");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcslwr(wchar_t* _String);
+     * }
+     */
+    public static MemorySegment wcslwr(MemorySegment _String) {
+        var mh$ = wcslwr$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsupr$MH() {
+        return RuntimeHelper.requireNonNull(constants$61.const$3,"wcsupr");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* wcsupr(wchar_t* _String);
+     * }
+     */
+    public static MemorySegment wcsupr(MemorySegment _String) {
+        var mh$ = wcsupr$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_String);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsicoll$MH() {
+        return RuntimeHelper.requireNonNull(constants$61.const$4,"wcsicoll");
+    }
+    /**
+     * {@snippet :
+     * int wcsicoll(const wchar_t* _String1, const wchar_t* _String2);
+     * }
+     */
+    public static int wcsicoll(MemorySegment _String1, MemorySegment _String2) {
+        var mh$ = wcsicoll$MH();
+        try {
+            return (int)mh$.invokeExact(_String1, _String2);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wasctime$MH() {
+        return RuntimeHelper.requireNonNull(constants$63.const$3,"_wasctime");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wasctime(struct tm* _Tm);
+     * }
+     */
+    public static MemorySegment _wasctime(MemorySegment _Tm) {
+        var mh$ = _wasctime$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Tm);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wasctime_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$63.const$4,"_wasctime_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wasctime_s(wchar_t* _Buffer, size_t _SizeInWords, struct tm* _Tm);
+     * }
+     */
+    public static int _wasctime_s(MemorySegment _Buffer, long _SizeInWords, MemorySegment _Tm) {
+        var mh$ = _wasctime_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _SizeInWords, _Tm);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsftime$MH() {
+        return RuntimeHelper.requireNonNull(constants$63.const$6,"wcsftime");
+    }
+    /**
+     * {@snippet :
+     * size_t wcsftime(wchar_t* _Buffer, size_t _SizeInWords, const wchar_t* _Format, struct tm* _Tm);
+     * }
+     */
+    public static long wcsftime(MemorySegment _Buffer, long _SizeInWords, MemorySegment _Format, MemorySegment _Tm) {
+        var mh$ = wcsftime$MH();
+        try {
+            return (long)mh$.invokeExact(_Buffer, _SizeInWords, _Format, _Tm);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcsftime_l$MH() {
+        return RuntimeHelper.requireNonNull(constants$64.const$1,"_wcsftime_l");
+    }
+    /**
+     * {@snippet :
+     * size_t _wcsftime_l(wchar_t* _Buffer, size_t _SizeInWords, const wchar_t* _Format, struct tm* _Tm, _locale_t _Locale);
+     * }
+     */
+    public static long _wcsftime_l(MemorySegment _Buffer, long _SizeInWords, MemorySegment _Format, MemorySegment _Tm, MemorySegment _Locale) {
+        var mh$ = _wcsftime_l$MH();
+        try {
+            return (long)mh$.invokeExact(_Buffer, _SizeInWords, _Format, _Tm, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wctime32$MH() {
+        return RuntimeHelper.requireNonNull(constants$64.const$2,"_wctime32");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wctime32(const __time32_t* _Time);
+     * }
+     */
+    public static MemorySegment _wctime32(MemorySegment _Time) {
+        var mh$ = _wctime32$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Time);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wctime32_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$64.const$3,"_wctime32_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wctime32_s(wchar_t* _Buffer, size_t _SizeInWords, const __time32_t* _Time);
+     * }
+     */
+    public static int _wctime32_s(MemorySegment _Buffer, long _SizeInWords, MemorySegment _Time) {
+        var mh$ = _wctime32_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _SizeInWords, _Time);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wctime64$MH() {
+        return RuntimeHelper.requireNonNull(constants$64.const$4,"_wctime64");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wctime64(const __time64_t* _Time);
+     * }
+     */
+    public static MemorySegment _wctime64(MemorySegment _Time) {
+        var mh$ = _wctime64$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Time);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wctime64_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$64.const$5,"_wctime64_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wctime64_s(wchar_t* _Buffer, size_t _SizeInWords, const __time64_t* _Time);
+     * }
+     */
+    public static int _wctime64_s(MemorySegment _Buffer, long _SizeInWords, MemorySegment _Time) {
+        var mh$ = _wctime64_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _SizeInWords, _Time);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wstrdate_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$65.const$0,"_wstrdate_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wstrdate_s(wchar_t* _Buffer, size_t _SizeInWords);
+     * }
+     */
+    public static int _wstrdate_s(MemorySegment _Buffer, long _SizeInWords) {
+        var mh$ = _wstrdate_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _SizeInWords);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wstrdate$MH() {
+        return RuntimeHelper.requireNonNull(constants$65.const$1,"_wstrdate");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wstrdate(wchar_t* _Buffer);
+     * }
+     */
+    public static MemorySegment _wstrdate(MemorySegment _Buffer) {
+        var mh$ = _wstrdate$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Buffer);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wstrtime_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$65.const$2,"_wstrtime_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t _wstrtime_s(wchar_t* _Buffer, size_t _SizeInWords);
+     * }
+     */
+    public static int _wstrtime_s(MemorySegment _Buffer, long _SizeInWords) {
+        var mh$ = _wstrtime_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Buffer, _SizeInWords);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wstrtime$MH() {
+        return RuntimeHelper.requireNonNull(constants$65.const$3,"_wstrtime");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wstrtime(wchar_t* _Buffer);
+     * }
+     */
+    public static MemorySegment _wstrtime(MemorySegment _Buffer) {
+        var mh$ = _wstrtime$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Buffer);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    /**
+     * {@snippet :
+     * typedef unsigned short _ino_t;
+     * }
+     */
+    public static final OfShort _ino_t = JAVA_SHORT;
+    /**
+     * {@snippet :
+     * typedef unsigned short ino_t;
+     * }
+     */
+    public static final OfShort ino_t = JAVA_SHORT;
+    /**
+     * {@snippet :
+     * typedef unsigned int _dev_t;
+     * }
+     */
+    public static final OfInt _dev_t = JAVA_INT;
+    /**
+     * {@snippet :
+     * typedef unsigned int dev_t;
+     * }
+     */
+    public static final OfInt dev_t = JAVA_INT;
+    /**
+     * {@snippet :
+     * typedef long _off_t;
+     * }
+     */
+    public static final OfInt _off_t = JAVA_INT;
+    /**
+     * {@snippet :
+     * typedef long off_t;
+     * }
+     */
+    public static final OfInt off_t = JAVA_INT;
+    public static MethodHandle _fstat32$MH() {
+        return RuntimeHelper.requireNonNull(constants$75.const$4,"_fstat32");
+    }
+    /**
+     * {@snippet :
+     * int _fstat32(int _FileHandle, struct _stat32* _Stat);
+     * }
+     */
+    public static int _fstat32(int _FileHandle, MemorySegment _Stat) {
+        var mh$ = _fstat32$MH();
+        try {
+            return (int)mh$.invokeExact(_FileHandle, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _fstat32i64$MH() {
+        return RuntimeHelper.requireNonNull(constants$75.const$5,"_fstat32i64");
+    }
+    /**
+     * {@snippet :
+     * int _fstat32i64(int _FileHandle, struct _stat32i64* _Stat);
+     * }
+     */
+    public static int _fstat32i64(int _FileHandle, MemorySegment _Stat) {
+        var mh$ = _fstat32i64$MH();
+        try {
+            return (int)mh$.invokeExact(_FileHandle, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _fstat64i32$MH() {
+        return RuntimeHelper.requireNonNull(constants$76.const$0,"_fstat64i32");
+    }
+    /**
+     * {@snippet :
+     * int _fstat64i32(int _FileHandle, struct _stat64i32* _Stat);
+     * }
+     */
+    public static int _fstat64i32(int _FileHandle, MemorySegment _Stat) {
+        var mh$ = _fstat64i32$MH();
+        try {
+            return (int)mh$.invokeExact(_FileHandle, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _fstat64$MH() {
+        return RuntimeHelper.requireNonNull(constants$76.const$1,"_fstat64");
+    }
+    /**
+     * {@snippet :
+     * int _fstat64(int _FileHandle, struct _stat64* _Stat);
+     * }
+     */
+    public static int _fstat64(int _FileHandle, MemorySegment _Stat) {
+        var mh$ = _fstat64$MH();
+        try {
+            return (int)mh$.invokeExact(_FileHandle, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _stat32$MH() {
+        return RuntimeHelper.requireNonNull(constants$76.const$2,"_stat32");
+    }
+    /**
+     * {@snippet :
+     * int _stat32(char* _FileName, struct _stat32* _Stat);
+     * }
+     */
+    public static int _stat32(MemorySegment _FileName, MemorySegment _Stat) {
+        var mh$ = _stat32$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _stat32i64$MH() {
+        return RuntimeHelper.requireNonNull(constants$76.const$3,"_stat32i64");
+    }
+    /**
+     * {@snippet :
+     * int _stat32i64(char* _FileName, struct _stat32i64* _Stat);
+     * }
+     */
+    public static int _stat32i64(MemorySegment _FileName, MemorySegment _Stat) {
+        var mh$ = _stat32i64$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _stat64i32$MH() {
+        return RuntimeHelper.requireNonNull(constants$76.const$4,"_stat64i32");
+    }
+    /**
+     * {@snippet :
+     * int _stat64i32(char* _FileName, struct _stat64i32* _Stat);
+     * }
+     */
+    public static int _stat64i32(MemorySegment _FileName, MemorySegment _Stat) {
+        var mh$ = _stat64i32$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _stat64$MH() {
+        return RuntimeHelper.requireNonNull(constants$76.const$5,"_stat64");
+    }
+    /**
+     * {@snippet :
+     * int _stat64(char* _FileName, struct _stat64* _Stat);
+     * }
+     */
+    public static int _stat64(MemorySegment _FileName, MemorySegment _Stat) {
+        var mh$ = _stat64$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wstat32$MH() {
+        return RuntimeHelper.requireNonNull(constants$77.const$0,"_wstat32");
+    }
+    /**
+     * {@snippet :
+     * int _wstat32(const wchar_t* _FileName, struct _stat32* _Stat);
+     * }
+     */
+    public static int _wstat32(MemorySegment _FileName, MemorySegment _Stat) {
+        var mh$ = _wstat32$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wstat32i64$MH() {
+        return RuntimeHelper.requireNonNull(constants$77.const$1,"_wstat32i64");
+    }
+    /**
+     * {@snippet :
+     * int _wstat32i64(const wchar_t* _FileName, struct _stat32i64* _Stat);
+     * }
+     */
+    public static int _wstat32i64(MemorySegment _FileName, MemorySegment _Stat) {
+        var mh$ = _wstat32i64$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wstat64i32$MH() {
+        return RuntimeHelper.requireNonNull(constants$77.const$2,"_wstat64i32");
+    }
+    /**
+     * {@snippet :
+     * int _wstat64i32(const wchar_t* _FileName, struct _stat64i32* _Stat);
+     * }
+     */
+    public static int _wstat64i32(MemorySegment _FileName, MemorySegment _Stat) {
+        var mh$ = _wstat64i32$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wstat64$MH() {
+        return RuntimeHelper.requireNonNull(constants$77.const$3,"_wstat64");
+    }
+    /**
+     * {@snippet :
+     * int _wstat64(const wchar_t* _FileName, struct _stat64* _Stat);
+     * }
+     */
+    public static int _wstat64(MemorySegment _FileName, MemorySegment _Stat) {
+        var mh$ = _wstat64$MH();
+        try {
+            return (int)mh$.invokeExact(_FileName, _Stat);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    /**
+     * {@snippet :
+     * typedef unsigned short _Wint_t;
+     * }
+     */
+    public static final OfShort _Wint_t = JAVA_SHORT;
+    public static MethodHandle _wsetlocale$MH() {
+        return RuntimeHelper.requireNonNull(constants$77.const$4,"_wsetlocale");
+    }
+    /**
+     * {@snippet :
+     * wchar_t* _wsetlocale(int _Category, const wchar_t* _Locale);
+     * }
+     */
+    public static MemorySegment _wsetlocale(int _Category, MemorySegment _Locale) {
+        var mh$ = _wsetlocale$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Category, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle _wcreate_locale$MH() {
+        return RuntimeHelper.requireNonNull(constants$77.const$5,"_wcreate_locale");
+    }
+    /**
+     * {@snippet :
+     * _locale_t _wcreate_locale(int _Category, const wchar_t* _Locale);
+     * }
+     */
+    public static MemorySegment _wcreate_locale(int _Category, MemorySegment _Locale) {
+        var mh$ = _wcreate_locale$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(_Category, _Locale);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle btowc$MH() {
+        return RuntimeHelper.requireNonNull(constants$78.const$1,"btowc");
+    }
+    /**
+     * {@snippet :
+     * wint_t btowc(int _Ch);
+     * }
+     */
+    public static short btowc(int _Ch) {
+        var mh$ = btowc$MH();
+        try {
+            return (short)mh$.invokeExact(_Ch);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle mbrlen$MH() {
+        return RuntimeHelper.requireNonNull(constants$78.const$3,"mbrlen");
+    }
+    /**
+     * {@snippet :
+     * size_t mbrlen(char* _Ch, size_t _SizeInBytes, mbstate_t* _State);
+     * }
+     */
+    public static long mbrlen(MemorySegment _Ch, long _SizeInBytes, MemorySegment _State) {
+        var mh$ = mbrlen$MH();
+        try {
+            return (long)mh$.invokeExact(_Ch, _SizeInBytes, _State);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle mbrtowc$MH() {
+        return RuntimeHelper.requireNonNull(constants$78.const$4,"mbrtowc");
+    }
+    /**
+     * {@snippet :
+     * size_t mbrtowc(wchar_t* _DstCh, char* _SrcCh, size_t _SizeInBytes, mbstate_t* _State);
+     * }
+     */
+    public static long mbrtowc(MemorySegment _DstCh, MemorySegment _SrcCh, long _SizeInBytes, MemorySegment _State) {
+        var mh$ = mbrtowc$MH();
+        try {
+            return (long)mh$.invokeExact(_DstCh, _SrcCh, _SizeInBytes, _State);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle mbsrtowcs_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$78.const$6,"mbsrtowcs_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t mbsrtowcs_s(size_t* _Retval, wchar_t* _Dst, size_t _Size, char** _PSrc, size_t _N, mbstate_t* _State);
+     * }
+     */
+    public static int mbsrtowcs_s(MemorySegment _Retval, MemorySegment _Dst, long _Size, MemorySegment _PSrc, long _N, MemorySegment _State) {
+        var mh$ = mbsrtowcs_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Retval, _Dst, _Size, _PSrc, _N, _State);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle mbsrtowcs$MH() {
+        return RuntimeHelper.requireNonNull(constants$79.const$0,"mbsrtowcs");
+    }
+    /**
+     * {@snippet :
+     * size_t mbsrtowcs(wchar_t* _Dest, char** _PSrc, size_t _Count, mbstate_t* _State);
+     * }
+     */
+    public static long mbsrtowcs(MemorySegment _Dest, MemorySegment _PSrc, long _Count, MemorySegment _State) {
+        var mh$ = mbsrtowcs$MH();
+        try {
+            return (long)mh$.invokeExact(_Dest, _PSrc, _Count, _State);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcrtomb_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$79.const$2,"wcrtomb_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t wcrtomb_s(size_t* _Retval, char* _Dst, size_t _SizeInBytes, wchar_t _Ch, mbstate_t* _State);
+     * }
+     */
+    public static int wcrtomb_s(MemorySegment _Retval, MemorySegment _Dst, long _SizeInBytes, short _Ch, MemorySegment _State) {
+        var mh$ = wcrtomb_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Retval, _Dst, _SizeInBytes, _Ch, _State);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcrtomb$MH() {
+        return RuntimeHelper.requireNonNull(constants$79.const$4,"wcrtomb");
+    }
+    /**
+     * {@snippet :
+     * size_t wcrtomb(char* _Dest, wchar_t _Source, mbstate_t* _State);
+     * }
+     */
+    public static long wcrtomb(MemorySegment _Dest, short _Source, MemorySegment _State) {
+        var mh$ = wcrtomb$MH();
+        try {
+            return (long)mh$.invokeExact(_Dest, _Source, _State);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsrtombs_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$79.const$5,"wcsrtombs_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t wcsrtombs_s(size_t* _Retval, char* _Dst, size_t _SizeInBytes, const wchar_t** _Src, size_t _Size, mbstate_t* _State);
+     * }
+     */
+    public static int wcsrtombs_s(MemorySegment _Retval, MemorySegment _Dst, long _SizeInBytes, MemorySegment _Src, long _Size, MemorySegment _State) {
+        var mh$ = wcsrtombs_s$MH();
+        try {
+            return (int)mh$.invokeExact(_Retval, _Dst, _SizeInBytes, _Src, _Size, _State);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wcsrtombs$MH() {
+        return RuntimeHelper.requireNonNull(constants$80.const$0,"wcsrtombs");
+    }
+    /**
+     * {@snippet :
+     * size_t wcsrtombs(char* _Dest, const wchar_t** _PSource, size_t _Count, mbstate_t* _State);
+     * }
+     */
+    public static long wcsrtombs(MemorySegment _Dest, MemorySegment _PSource, long _Count, MemorySegment _State) {
+        var mh$ = wcsrtombs$MH();
+        try {
+            return (long)mh$.invokeExact(_Dest, _PSource, _Count, _State);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wctob$MH() {
+        return RuntimeHelper.requireNonNull(constants$80.const$1,"wctob");
+    }
+    /**
+     * {@snippet :
+     * int wctob(wint_t _WCh);
+     * }
+     */
+    public static int wctob(short _WCh) {
+        var mh$ = wctob$MH();
+        try {
+            return (int)mh$.invokeExact(_WCh);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wmemcpy_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$80.const$2,"wmemcpy_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t wmemcpy_s(wchar_t* _S1, rsize_t _N1, const wchar_t* _S2, rsize_t _N);
+     * }
+     */
+    public static int wmemcpy_s(MemorySegment _S1, long _N1, MemorySegment _S2, long _N) {
+        var mh$ = wmemcpy_s$MH();
+        try {
+            return (int)mh$.invokeExact(_S1, _N1, _S2, _N);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle wmemmove_s$MH() {
+        return RuntimeHelper.requireNonNull(constants$80.const$3,"wmemmove_s");
+    }
+    /**
+     * {@snippet :
+     * errno_t wmemmove_s(wchar_t* _S1, rsize_t _N1, const wchar_t* _S2, rsize_t _N);
+     * }
+     */
+    public static int wmemmove_s(MemorySegment _S1, long _N1, MemorySegment _S2, long _N) {
+        var mh$ = wmemmove_s$MH();
+        try {
+            return (int)mh$.invokeExact(_S1, _N1, _S2, _N);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
     public static MethodHandle forEach$MH() {
-        return RuntimeHelper.requireNonNull(constants$1.const$1,"forEach");
+        return RuntimeHelper.requireNonNull(constants$81.const$5,"forEach");
     }
     /**
      * {@snippet :
@@ -34,7 +6129,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle dumpPerson$MH() {
-        return RuntimeHelper.requireNonNull(constants$1.const$3,"dumpPerson");
+        return RuntimeHelper.requireNonNull(constants$82.const$0,"dumpPerson");
     }
     /**
      * {@snippet :
@@ -50,7 +6145,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle getName$MH() {
-        return RuntimeHelper.requireNonNull(constants$1.const$5,"getName");
+        return RuntimeHelper.requireNonNull(constants$82.const$1,"getName");
     }
     /**
      * {@snippet :
@@ -66,7 +6161,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle getNames$MH() {
-        return RuntimeHelper.requireNonNull(constants$2.const$0,"getNames");
+        return RuntimeHelper.requireNonNull(constants$82.const$2,"getNames");
     }
     /**
      * {@snippet :
@@ -80,6 +6175,454 @@ public class ffm_h  {
         } catch (Throwable ex$) {
             throw new AssertionError("should not reach here", ex$);
         }
+    }
+    public static MethodHandle getWName$MH() {
+        return RuntimeHelper.requireNonNull(constants$82.const$3,"getWName");
+    }
+    /**
+     * {@snippet :
+     * const wchar_t* getWName(,...);
+     * }
+     */
+    public static MemorySegment getWName(Object... x0) {
+        var mh$ = getWName$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(x0);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle getCNWName$MH() {
+        return RuntimeHelper.requireNonNull(constants$82.const$4,"getCNWName");
+    }
+    /**
+     * {@snippet :
+     * const wchar_t* getCNWName(,...);
+     * }
+     */
+    public static MemorySegment getCNWName(Object... x0) {
+        var mh$ = getCNWName$MH();
+        try {
+            return (java.lang.foreign.MemorySegment)mh$.invokeExact(x0);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    /**
+     * {@snippet :
+     * #define _VCRUNTIME_DISABLED_WARNINGS 4514
+     * }
+     */
+    public static int _VCRUNTIME_DISABLED_WARNINGS() {
+        return (int)4514L;
+    }
+    /**
+     * {@snippet :
+     * #define NULL 0
+     * }
+     */
+    public static MemorySegment NULL() {
+        return constants$82.const$5;
+    }
+    /**
+     * {@snippet :
+     * #define _UCRT_DISABLED_WARNINGS 4324
+     * }
+     */
+    public static int _UCRT_DISABLED_WARNINGS() {
+        return (int)4324L;
+    }
+    /**
+     * {@snippet :
+     * #define _TRUNCATE -1
+     * }
+     */
+    public static long _TRUNCATE() {
+        return -1L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_SIZE_MAX -1
+     * }
+     */
+    public static long _CRT_SIZE_MAX() {
+        return -1L;
+    }
+    /**
+     * {@snippet :
+     * #define __FILEW__ "C"
+     * }
+     */
+    public static MemorySegment __FILEW__() {
+        return constants$83.const$0;
+    }
+    /**
+     * {@snippet :
+     * #define __STDC_SECURE_LIB__ 200411
+     * }
+     */
+    public static int __STDC_SECURE_LIB__() {
+        return (int)200411L;
+    }
+    /**
+     * {@snippet :
+     * #define __GOT_SECURE_LIB__ 200411
+     * }
+     */
+    public static int __GOT_SECURE_LIB__() {
+        return (int)200411L;
+    }
+    /**
+     * {@snippet :
+     * #define EDEADLOCK 36
+     * }
+     */
+    public static int EDEADLOCK() {
+        return (int)36L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INTERNAL_STDIO_SYMBOL_PREFIX ""
+     * }
+     */
+    public static MemorySegment _CRT_INTERNAL_STDIO_SYMBOL_PREFIX() {
+        return constants$83.const$1;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INTERNAL_PRINTF_LEGACY_VSPRINTF_NULL_TERMINATION 1
+     * }
+     */
+    public static long _CRT_INTERNAL_PRINTF_LEGACY_VSPRINTF_NULL_TERMINATION() {
+        return 1L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INTERNAL_PRINTF_STANDARD_SNPRINTF_BEHAVIOR 2
+     * }
+     */
+    public static long _CRT_INTERNAL_PRINTF_STANDARD_SNPRINTF_BEHAVIOR() {
+        return 2L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INTERNAL_PRINTF_LEGACY_WIDE_SPECIFIERS 4
+     * }
+     */
+    public static long _CRT_INTERNAL_PRINTF_LEGACY_WIDE_SPECIFIERS() {
+        return 4L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INTERNAL_PRINTF_LEGACY_MSVCRT_COMPATIBILITY 8
+     * }
+     */
+    public static long _CRT_INTERNAL_PRINTF_LEGACY_MSVCRT_COMPATIBILITY() {
+        return 8L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INTERNAL_PRINTF_LEGACY_THREE_DIGIT_EXPONENTS 16
+     * }
+     */
+    public static long _CRT_INTERNAL_PRINTF_LEGACY_THREE_DIGIT_EXPONENTS() {
+        return 16L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INTERNAL_PRINTF_STANDARD_ROUNDING 32
+     * }
+     */
+    public static long _CRT_INTERNAL_PRINTF_STANDARD_ROUNDING() {
+        return 32L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INTERNAL_SCANF_SECURECRT 1
+     * }
+     */
+    public static long _CRT_INTERNAL_SCANF_SECURECRT() {
+        return 1L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INTERNAL_SCANF_LEGACY_WIDE_SPECIFIERS 2
+     * }
+     */
+    public static long _CRT_INTERNAL_SCANF_LEGACY_WIDE_SPECIFIERS() {
+        return 2L;
+    }
+    /**
+     * {@snippet :
+     * #define _CRT_INTERNAL_SCANF_LEGACY_MSVCRT_COMPATIBILITY 4
+     * }
+     */
+    public static long _CRT_INTERNAL_SCANF_LEGACY_MSVCRT_COMPATIBILITY() {
+        return 4L;
+    }
+    /**
+     * {@snippet :
+     * #define WEOF 65535
+     * }
+     */
+    public static short WEOF() {
+        return (short)65535L;
+    }
+    /**
+     * {@snippet :
+     * #define _ALPHA 259
+     * }
+     */
+    public static int _ALPHA() {
+        return (int)259L;
+    }
+    /**
+     * {@snippet :
+     * #define SH_DENYRW 16
+     * }
+     */
+    public static int SH_DENYRW() {
+        return (int)16L;
+    }
+    /**
+     * {@snippet :
+     * #define SH_DENYWR 32
+     * }
+     */
+    public static int SH_DENYWR() {
+        return (int)32L;
+    }
+    /**
+     * {@snippet :
+     * #define SH_DENYRD 48
+     * }
+     */
+    public static int SH_DENYRD() {
+        return (int)48L;
+    }
+    /**
+     * {@snippet :
+     * #define SH_DENYNO 64
+     * }
+     */
+    public static int SH_DENYNO() {
+        return (int)64L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_ITOSTR_BASE16_COUNT 9
+     * }
+     */
+    public static int _MAX_ITOSTR_BASE16_COUNT() {
+        return (int)9L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_ITOSTR_BASE10_COUNT 12
+     * }
+     */
+    public static int _MAX_ITOSTR_BASE10_COUNT() {
+        return (int)12L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_ITOSTR_BASE8_COUNT 12
+     * }
+     */
+    public static int _MAX_ITOSTR_BASE8_COUNT() {
+        return (int)12L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_ITOSTR_BASE2_COUNT 33
+     * }
+     */
+    public static int _MAX_ITOSTR_BASE2_COUNT() {
+        return (int)33L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_LTOSTR_BASE16_COUNT 9
+     * }
+     */
+    public static int _MAX_LTOSTR_BASE16_COUNT() {
+        return (int)9L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_LTOSTR_BASE10_COUNT 12
+     * }
+     */
+    public static int _MAX_LTOSTR_BASE10_COUNT() {
+        return (int)12L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_LTOSTR_BASE8_COUNT 12
+     * }
+     */
+    public static int _MAX_LTOSTR_BASE8_COUNT() {
+        return (int)12L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_LTOSTR_BASE2_COUNT 33
+     * }
+     */
+    public static int _MAX_LTOSTR_BASE2_COUNT() {
+        return (int)33L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_ULTOSTR_BASE16_COUNT 9
+     * }
+     */
+    public static int _MAX_ULTOSTR_BASE16_COUNT() {
+        return (int)9L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_ULTOSTR_BASE10_COUNT 11
+     * }
+     */
+    public static int _MAX_ULTOSTR_BASE10_COUNT() {
+        return (int)11L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_ULTOSTR_BASE8_COUNT 12
+     * }
+     */
+    public static int _MAX_ULTOSTR_BASE8_COUNT() {
+        return (int)12L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_ULTOSTR_BASE2_COUNT 33
+     * }
+     */
+    public static int _MAX_ULTOSTR_BASE2_COUNT() {
+        return (int)33L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_I64TOSTR_BASE16_COUNT 17
+     * }
+     */
+    public static int _MAX_I64TOSTR_BASE16_COUNT() {
+        return (int)17L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_I64TOSTR_BASE10_COUNT 21
+     * }
+     */
+    public static int _MAX_I64TOSTR_BASE10_COUNT() {
+        return (int)21L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_I64TOSTR_BASE8_COUNT 23
+     * }
+     */
+    public static int _MAX_I64TOSTR_BASE8_COUNT() {
+        return (int)23L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_I64TOSTR_BASE2_COUNT 65
+     * }
+     */
+    public static int _MAX_I64TOSTR_BASE2_COUNT() {
+        return (int)65L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_U64TOSTR_BASE16_COUNT 17
+     * }
+     */
+    public static int _MAX_U64TOSTR_BASE16_COUNT() {
+        return (int)17L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_U64TOSTR_BASE10_COUNT 21
+     * }
+     */
+    public static int _MAX_U64TOSTR_BASE10_COUNT() {
+        return (int)21L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_U64TOSTR_BASE8_COUNT 23
+     * }
+     */
+    public static int _MAX_U64TOSTR_BASE8_COUNT() {
+        return (int)23L;
+    }
+    /**
+     * {@snippet :
+     * #define _MAX_U64TOSTR_BASE2_COUNT 65
+     * }
+     */
+    public static int _MAX_U64TOSTR_BASE2_COUNT() {
+        return (int)65L;
+    }
+    /**
+     * {@snippet :
+     * #define S_IFMT 61440
+     * }
+     */
+    public static int S_IFMT() {
+        return (int)61440L;
+    }
+    /**
+     * {@snippet :
+     * #define S_IFDIR 16384
+     * }
+     */
+    public static int S_IFDIR() {
+        return (int)16384L;
+    }
+    /**
+     * {@snippet :
+     * #define S_IFCHR 8192
+     * }
+     */
+    public static int S_IFCHR() {
+        return (int)8192L;
+    }
+    /**
+     * {@snippet :
+     * #define S_IFREG 32768
+     * }
+     */
+    public static int S_IFREG() {
+        return (int)32768L;
+    }
+    /**
+     * {@snippet :
+     * #define S_IREAD 256
+     * }
+     */
+    public static int S_IREAD() {
+        return (int)256L;
+    }
+    /**
+     * {@snippet :
+     * #define S_IWRITE 128
+     * }
+     */
+    public static int S_IWRITE() {
+        return (int)128L;
+    }
+    /**
+     * {@snippet :
+     * #define S_IEXEC 64
+     * }
+     */
+    public static int S_IEXEC() {
+        return (int)64L;
     }
 }
 
