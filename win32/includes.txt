@@ -6,6 +6,7 @@
 --include-function GetMessageW
 --include-function GetKeyNameTextA
 --include-function GetKeyNameTextW
+--include-function MapVirtualKeyW
 --include-typedef HOOKPROC
 --include-typedef HINSTANCE
 --include-typedef HHOOK
@@ -21,3 +22,4 @@
 --include-constant WH_MOUSE_LL
 --include-constant WM_KEYDOWN
 --include-constant WM_KEYUP
+--include-constant MAPVK_VK_TO_VSC

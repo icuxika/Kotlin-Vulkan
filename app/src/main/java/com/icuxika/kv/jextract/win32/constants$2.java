@@ -24,19 +24,23 @@ final class constants$2 {
         "GetKeyNameTextW",
         constants$2.const$0
     );
-    static final FunctionDescriptor const$3 = FunctionDescriptor.of(RuntimeHelper.POINTER,
+    static final FunctionDescriptor const$3 = FunctionDescriptor.of(JAVA_INT,
+        JAVA_INT,
+        JAVA_INT
+    );
+    static final MethodHandle const$4 = RuntimeHelper.downcallHandle(
+        "MapVirtualKeyW",
+        constants$2.const$3
+    );
+    static final FunctionDescriptor const$5 = FunctionDescriptor.of(RuntimeHelper.POINTER,
         JAVA_INT,
         RuntimeHelper.POINTER,
         RuntimeHelper.POINTER,
         JAVA_INT
     );
-    static final MethodHandle const$4 = RuntimeHelper.downcallHandle(
+    static final MethodHandle const$6 = RuntimeHelper.downcallHandle(
         "SetWindowsHookExA",
-        constants$2.const$3
-    );
-    static final MethodHandle const$5 = RuntimeHelper.downcallHandle(
-        "SetWindowsHookExW",
-        constants$2.const$3
+        constants$2.const$5
     );
 }
 

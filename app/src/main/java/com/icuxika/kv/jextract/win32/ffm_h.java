@@ -161,8 +161,24 @@ public class ffm_h  {
             throw new AssertionError("should not reach here", ex$);
         }
     }
+    public static MethodHandle MapVirtualKeyW$MH() {
+        return RuntimeHelper.requireNonNull(constants$2.const$4,"MapVirtualKeyW");
+    }
+    /**
+     * {@snippet :
+     * UINT MapVirtualKeyW(UINT uCode, UINT uMapType);
+     * }
+     */
+    public static int MapVirtualKeyW(int uCode, int uMapType) {
+        var mh$ = MapVirtualKeyW$MH();
+        try {
+            return (int)mh$.invokeExact(uCode, uMapType);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
     public static MethodHandle SetWindowsHookExA$MH() {
-        return RuntimeHelper.requireNonNull(constants$2.const$4,"SetWindowsHookExA");
+        return RuntimeHelper.requireNonNull(constants$2.const$6,"SetWindowsHookExA");
     }
     /**
      * {@snippet :
@@ -178,7 +194,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle SetWindowsHookExW$MH() {
-        return RuntimeHelper.requireNonNull(constants$2.const$5,"SetWindowsHookExW");
+        return RuntimeHelper.requireNonNull(constants$3.const$0,"SetWindowsHookExW");
     }
     /**
      * {@snippet :
@@ -194,7 +210,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle UnhookWindowsHookEx$MH() {
-        return RuntimeHelper.requireNonNull(constants$3.const$1,"UnhookWindowsHookEx");
+        return RuntimeHelper.requireNonNull(constants$3.const$2,"UnhookWindowsHookEx");
     }
     /**
      * {@snippet :
@@ -210,7 +226,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle CallNextHookEx$MH() {
-        return RuntimeHelper.requireNonNull(constants$3.const$3,"CallNextHookEx");
+        return RuntimeHelper.requireNonNull(constants$3.const$4,"CallNextHookEx");
     }
     /**
      * {@snippet :
@@ -224,6 +240,14 @@ public class ffm_h  {
         } catch (Throwable ex$) {
             throw new AssertionError("should not reach here", ex$);
         }
+    }
+    /**
+     * {@snippet :
+     * #define MAPVK_VK_TO_VSC 0
+     * }
+     */
+    public static int MAPVK_VK_TO_VSC() {
+        return (int)0L;
     }
 }
 
