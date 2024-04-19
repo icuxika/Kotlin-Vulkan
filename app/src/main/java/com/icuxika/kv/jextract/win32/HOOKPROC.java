@@ -16,13 +16,13 @@ public interface HOOKPROC {
 
     long apply(int code, long wParam, long lParam);
     static MemorySegment allocate(HOOKPROC fi, Arena scope) {
-        return RuntimeHelper.upcallStub(constants$0.const$1, fi, constants$0.const$0, scope);
+        return RuntimeHelper.upcallStub(constants$0.const$3, fi, constants$0.const$2, scope);
     }
     static HOOKPROC ofAddress(MemorySegment addr, Arena arena) {
         MemorySegment symbol = addr.reinterpret(arena, null);
         return (int _code, long _wParam, long _lParam) -> {
             try {
-                return (long)constants$0.const$2.invokeExact(symbol, _code, _wParam, _lParam);
+                return (long)constants$0.const$4.invokeExact(symbol, _code, _wParam, _lParam);
             } catch (Throwable ex$) {
                 throw new AssertionError("should not reach here", ex$);
             }

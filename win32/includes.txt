@@ -7,6 +7,9 @@
 --include-function GetKeyNameTextA
 --include-function GetKeyNameTextW
 --include-function MapVirtualKeyW
+--include-function PostQuitMessage
+--include-function PostThreadMessageW
+--include-function GetCurrentThreadId
 --include-typedef HOOKPROC
 --include-typedef HINSTANCE
 --include-typedef HHOOK
@@ -23,3 +26,4 @@
 --include-constant WM_KEYDOWN
 --include-constant WM_KEYUP
 --include-constant MAPVK_VK_TO_VSC
+--include-constant WM_QUIT

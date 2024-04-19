@@ -33,6 +33,10 @@ application {
     )
 }
 
+tasks.run.configure {
+    standardInput = System.`in`
+}
+
 tasks.withType<JavaCompile> {
     val compilerArgs = options.compilerArgs
     compilerArgs.add("--enable-preview")

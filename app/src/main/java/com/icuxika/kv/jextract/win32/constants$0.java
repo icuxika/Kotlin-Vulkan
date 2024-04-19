@@ -11,24 +11,27 @@ final class constants$0 {
 
     // Suppresses default constructor, ensuring non-instantiability.
     private constants$0() {}
-    static final FunctionDescriptor const$0 = FunctionDescriptor.of(JAVA_LONG,
+    static final FunctionDescriptor const$0 = FunctionDescriptor.of(JAVA_INT);
+    static final MethodHandle const$1 = RuntimeHelper.downcallHandle(
+        "GetCurrentThreadId",
+        constants$0.const$0
+    );
+    static final FunctionDescriptor const$2 = FunctionDescriptor.of(JAVA_LONG,
         JAVA_INT,
         JAVA_LONG,
         JAVA_LONG
     );
-    static final MethodHandle const$1 = RuntimeHelper.upcallHandle(HOOKPROC.class, "apply", constants$0.const$0);
-    static final MethodHandle const$2 = RuntimeHelper.downcallHandle(
-        constants$0.const$0
+    static final MethodHandle const$3 = RuntimeHelper.upcallHandle(HOOKPROC.class, "apply", constants$0.const$2);
+    static final MethodHandle const$4 = RuntimeHelper.downcallHandle(
+        constants$0.const$2
     );
-    static final StructLayout const$3 = MemoryLayout.structLayout(
+    static final StructLayout const$5 = MemoryLayout.structLayout(
         JAVA_INT.withName("vkCode"),
         JAVA_INT.withName("scanCode"),
         JAVA_INT.withName("flags"),
         JAVA_INT.withName("time"),
         JAVA_LONG.withName("dwExtraInfo")
     ).withName("tagKBDLLHOOKSTRUCT");
-    static final VarHandle const$4 = constants$0.const$3.varHandle(MemoryLayout.PathElement.groupElement("vkCode"));
-    static final VarHandle const$5 = constants$0.const$3.varHandle(MemoryLayout.PathElement.groupElement("scanCode"));
 }
 
 

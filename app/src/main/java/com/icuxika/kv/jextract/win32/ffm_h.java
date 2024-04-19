@@ -35,6 +35,14 @@ public class ffm_h  {
     }
     /**
      * {@snippet :
+     * #define WM_QUIT 18
+     * }
+     */
+    public static int WM_QUIT() {
+        return (int)18L;
+    }
+    /**
+     * {@snippet :
      * #define WM_KEYDOWN 256
      * }
      */
@@ -91,6 +99,22 @@ public class ffm_h  {
      * }
      */
     public static final AddressLayout HHOOK = RuntimeHelper.POINTER;
+    public static MethodHandle GetCurrentThreadId$MH() {
+        return RuntimeHelper.requireNonNull(constants$0.const$1,"GetCurrentThreadId");
+    }
+    /**
+     * {@snippet :
+     * DWORD GetCurrentThreadId();
+     * }
+     */
+    public static int GetCurrentThreadId() {
+        var mh$ = GetCurrentThreadId$MH();
+        try {
+            return (int)mh$.invokeExact();
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
     /**
      * {@snippet :
      * typedef struct tagMSG* LPMSG;
@@ -98,7 +122,7 @@ public class ffm_h  {
      */
     public static final AddressLayout LPMSG = RuntimeHelper.POINTER;
     public static MethodHandle GetMessageA$MH() {
-        return RuntimeHelper.requireNonNull(constants$1.const$4,"GetMessageA");
+        return RuntimeHelper.requireNonNull(constants$1.const$6,"GetMessageA");
     }
     /**
      * {@snippet :
@@ -114,7 +138,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle GetMessageW$MH() {
-        return RuntimeHelper.requireNonNull(constants$1.const$5,"GetMessageW");
+        return RuntimeHelper.requireNonNull(constants$2.const$0,"GetMessageW");
     }
     /**
      * {@snippet :
@@ -129,8 +153,40 @@ public class ffm_h  {
             throw new AssertionError("should not reach here", ex$);
         }
     }
+    public static MethodHandle PostThreadMessageW$MH() {
+        return RuntimeHelper.requireNonNull(constants$2.const$2,"PostThreadMessageW");
+    }
+    /**
+     * {@snippet :
+     * BOOL PostThreadMessageW(DWORD idThread, UINT Msg, WPARAM wParam, LPARAM lParam);
+     * }
+     */
+    public static int PostThreadMessageW(int idThread, int Msg, long wParam, long lParam) {
+        var mh$ = PostThreadMessageW$MH();
+        try {
+            return (int)mh$.invokeExact(idThread, Msg, wParam, lParam);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
+    public static MethodHandle PostQuitMessage$MH() {
+        return RuntimeHelper.requireNonNull(constants$2.const$4,"PostQuitMessage");
+    }
+    /**
+     * {@snippet :
+     * void PostQuitMessage(int nExitCode);
+     * }
+     */
+    public static void PostQuitMessage(int nExitCode) {
+        var mh$ = PostQuitMessage$MH();
+        try {
+            mh$.invokeExact(nExitCode);
+        } catch (Throwable ex$) {
+            throw new AssertionError("should not reach here", ex$);
+        }
+    }
     public static MethodHandle GetKeyNameTextA$MH() {
-        return RuntimeHelper.requireNonNull(constants$2.const$1,"GetKeyNameTextA");
+        return RuntimeHelper.requireNonNull(constants$2.const$6,"GetKeyNameTextA");
     }
     /**
      * {@snippet :
@@ -146,7 +202,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle GetKeyNameTextW$MH() {
-        return RuntimeHelper.requireNonNull(constants$2.const$2,"GetKeyNameTextW");
+        return RuntimeHelper.requireNonNull(constants$3.const$0,"GetKeyNameTextW");
     }
     /**
      * {@snippet :
@@ -162,7 +218,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle MapVirtualKeyW$MH() {
-        return RuntimeHelper.requireNonNull(constants$2.const$4,"MapVirtualKeyW");
+        return RuntimeHelper.requireNonNull(constants$3.const$2,"MapVirtualKeyW");
     }
     /**
      * {@snippet :
@@ -178,7 +234,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle SetWindowsHookExA$MH() {
-        return RuntimeHelper.requireNonNull(constants$2.const$6,"SetWindowsHookExA");
+        return RuntimeHelper.requireNonNull(constants$3.const$4,"SetWindowsHookExA");
     }
     /**
      * {@snippet :
@@ -194,7 +250,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle SetWindowsHookExW$MH() {
-        return RuntimeHelper.requireNonNull(constants$3.const$0,"SetWindowsHookExW");
+        return RuntimeHelper.requireNonNull(constants$3.const$5,"SetWindowsHookExW");
     }
     /**
      * {@snippet :
@@ -210,7 +266,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle UnhookWindowsHookEx$MH() {
-        return RuntimeHelper.requireNonNull(constants$3.const$2,"UnhookWindowsHookEx");
+        return RuntimeHelper.requireNonNull(constants$4.const$1,"UnhookWindowsHookEx");
     }
     /**
      * {@snippet :
@@ -226,7 +282,7 @@ public class ffm_h  {
         }
     }
     public static MethodHandle CallNextHookEx$MH() {
-        return RuntimeHelper.requireNonNull(constants$3.const$4,"CallNextHookEx");
+        return RuntimeHelper.requireNonNull(constants$4.const$3,"CallNextHookEx");
     }
     /**
      * {@snippet :

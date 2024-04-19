@@ -11,35 +11,34 @@ final class constants$2 {
 
     // Suppresses default constructor, ensuring non-instantiability.
     private constants$2() {}
-    static final FunctionDescriptor const$0 = FunctionDescriptor.of(JAVA_INT,
-        JAVA_INT,
-        RuntimeHelper.POINTER,
-        JAVA_INT
+    static final MethodHandle const$0 = RuntimeHelper.downcallHandle(
+        "GetMessageW",
+        constants$1.const$5
     );
-    static final MethodHandle const$1 = RuntimeHelper.downcallHandle(
-        "GetKeyNameTextA",
-        constants$2.const$0
+    static final FunctionDescriptor const$1 = FunctionDescriptor.of(JAVA_INT,
+        JAVA_INT,
+        JAVA_INT,
+        JAVA_LONG,
+        JAVA_LONG
     );
     static final MethodHandle const$2 = RuntimeHelper.downcallHandle(
-        "GetKeyNameTextW",
-        constants$2.const$0
+        "PostThreadMessageW",
+        constants$2.const$1
     );
-    static final FunctionDescriptor const$3 = FunctionDescriptor.of(JAVA_INT,
-        JAVA_INT,
+    static final FunctionDescriptor const$3 = FunctionDescriptor.ofVoid(
         JAVA_INT
     );
     static final MethodHandle const$4 = RuntimeHelper.downcallHandle(
-        "MapVirtualKeyW",
+        "PostQuitMessage",
         constants$2.const$3
     );
-    static final FunctionDescriptor const$5 = FunctionDescriptor.of(RuntimeHelper.POINTER,
+    static final FunctionDescriptor const$5 = FunctionDescriptor.of(JAVA_INT,
         JAVA_INT,
-        RuntimeHelper.POINTER,
         RuntimeHelper.POINTER,
         JAVA_INT
     );
     static final MethodHandle const$6 = RuntimeHelper.downcallHandle(
-        "SetWindowsHookExA",
+        "GetKeyNameTextA",
         constants$2.const$5
     );
 }
